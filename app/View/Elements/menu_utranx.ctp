@@ -48,45 +48,45 @@
 
                     <li>        <?= $this->Html->link(
                             __('Request quotation'),
-                            array('controller' => 'transportBills', 'action' => 'index', 0),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 0),
                             array('escape' => false)
                         ); ?>
 
                     </li>
                     <li>    <?= $this->Html->link(
                             __('Quotation'),
-                            array('controller' => 'transportBills', 'action' => 'index', 1),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 1),
                             array('escape' => false)
                         ); ?></li>
 
                     <li>    <?= $this->Html->link(
                             __('Orders'),
-                            array('controller' => 'transportBills', 'action' => 'index', 2),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 2),
                             array('escape' => false)
                         ); ?></li>
 
                       <li>    <?= $this->Html->link(
                         __('Customer orders detail'),
-                        array('controller' => 'transportBillDetailRides', 'action' => 'index'),
+                        array('plugin' => null,'controller' => 'transportBillDetailRides', 'action' => 'index'),
                         array('escape' => false)
                     ); ?></li>
 
                     <li>    <?= $this->Html->link(
                             __('Preinvoices'),
-                            array('controller' => 'transportBills', 'action' => 'index', 4),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 4),
                             array('escape' => false)
                         ); ?>
                     </li>
 
                     <li>    <?= $this->Html->link(
                             __('Invoices'),
-                            array('controller' => 'transportBills', 'action' => 'index', 7),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 7),
                             array('escape' => false)
                         ); ?>
                     </li>
                     <li>    <?= $this->Html->link(
                             __('Sale credit notes'),
-                            array('controller' => 'transportBills', 'action' => 'index', 10),
+                            array('plugin' => null,'controller' => 'transportBills', 'action' => 'index', 10),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -95,14 +95,14 @@
                         <li>
                             <?= $this->Html->link(
                                 __("Prices"),
-                                array('controller' => 'prices', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'prices', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?>
                         </li>
                     <?php } ?>
                     <li>        <?= $this->Html->link(
                             __('Clients'),
-                            array('controller' => 'suppliers', 'action' => 'index', 1),
+                            array('plugin' => null,'controller' => 'suppliers', 'action' => 'index', 1),
                             array('escape' => false)
                         ); ?>
 
@@ -147,7 +147,7 @@
                     <li>
                         <?= $this->Html->link(
                             __('Orders'),
-                            array('controller' => 'bills', 'action' => 'index', 1),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'index', 1),
                             array('escape' => false)
                         ); ?>
                         <div class="li-border"></div>
@@ -155,7 +155,7 @@
                     <li>
                         <?= $this->Html->link(
                             __('Invoice'),
-                            array('controller' => 'bills', 'action' => 'add', 4),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'add', 4),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -163,14 +163,14 @@
                     <li>
                         <?= $this->Html->link(
                             __('Credit note'),
-                            array('controller' => 'bills', 'action' => 'add', 5),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'add', 5),
                             array('escape' => false)
                         ); ?>
                     </li>
                     <li>
                         <?= $this->Html->link(
                             __('Newspaper purchases'),
-                            array('controller' => 'bills', 'action' => 'index',14),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'index',14),
                             array('escape' => false)
                         ); ?>
                         <div class="li-border"></div>
@@ -179,7 +179,7 @@
                     <li>
                         <?= $this->Html->link(
                             __('Suppliers'),
-                            array('controller' => 'suppliers', 'action' => 'index', 0),
+                            array('plugin' => null,'controller' => 'suppliers', 'action' => 'index', 0),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -270,13 +270,13 @@
                     <?php if( $this->Session->read("permissionOrderNotValidated")) { ?>
                                 <li> <?= $this->Html->link(
                                         __('Customer orders not validated'),
-                                        array('controller' => 'transportBills', 'action' => 'addFromCustomerOrder'),
+                                        array('plugin' => null,'controller' => 'transportBills', 'action' => 'addFromCustomerOrder'),
                                         array('escape' => false)
                                     ); ?>
                                 </li>
                                 <li> <?= $this->Html->link(
                                         __('Customer orders not validated detail'),
-                                        array('controller' => 'transportBills', 'action' => 'addFromCustomerOrderDetail'),
+                                        array('plugin' => null,'controller' => 'transportBills', 'action' => 'addFromCustomerOrderDetail'),
                                         array('escape' => false)
                                     ); ?>
                                 </li>
@@ -287,13 +287,13 @@
 
                             <li> <?= $this->Html->link(
                                     $this->Session->read("nameSheetRide"),
-                                    array('controller' => 'sheetRides', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'sheetRides', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __('Customers by last mission date'),
-                                    array('controller' => 'customers', 'action' => 'index',25,3,'DESC'),
+                                    array('plugin' => null,'controller' => 'customers', 'action' => 'index',25,3,'DESC'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -302,13 +302,13 @@
                         <?php if ($this->Session->read('Auth.User.profile_id') != 10 && $profileId != ProfilesEnum::client) { ?>
                             <li> <?= $this->Html->link(
                                     __("Missions"),
-                                    array('controller' => 'sheetRideDetailRides', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'sheetRideDetailRides', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Dispatch slip"),
-                                    array('controller' => 'slips', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'slips', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -316,7 +316,7 @@
                             <?php if(Configure::read("trajet") == '0') { ?>
                             <li><?= $this->Html->link(
                                     __("Cities"),
-                                    array('controller' => 'destinations', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'destinations', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                         <?php } ?>
@@ -325,7 +325,7 @@
                         if ($this->Session->read("permissionComplaint")) { ?>
                             <li> <?= $this->Html->link(
                                     __("Complaints"),
-                                    array('controller' => 'complaints', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'complaints', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -334,30 +334,30 @@
                             ?>
                        <!--     <li> <?= $this->Html->link(
                                     __('Transits'),
-                                    array('controller' => 'transits', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'transits', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li> -->
                         <?php } ?>
                         <!--     <li> <?= $this->Html->link(
                             __("Missions") . ' ' . __("calendar"),
-                            array('controller' => 'sheetRideDetailRides', 'action' => 'calendar'),
+                            array('plugin' => null,'controller' => 'sheetRideDetailRides', 'action' => 'calendar'),
                             array('escape' => false)
                         ); ?>
                             </li> -->
                         <!--  <li> <?= $this->Html->link(
                             __("Newspaper SMS"),
-                            array('controller' => 'messages', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'messages', 'action' => 'index'),
                             array('escape' => false)
                         ); ?></li> -->
                         <!--   <li> <?= $this->Html->link(
                             __("conductorsRidesByDate"),
-                            array('controller' => 'sheetRides', 'action' => 'conductorsRidesByDate'),
+                            array('plugin' => null,'controller' => 'sheetRides', 'action' => 'conductorsRidesByDate'),
                             array('escape' => false)
                         ); ?></li>
                             <li> <?= $this->Html->link(
                             __("conductorsRidesByKm"),
-                            array('controller' => 'sheetRides', 'action' => 'conductorsRidesByKm'),
+                            array('plugin' => null,'controller' => 'sheetRides', 'action' => 'conductorsRidesByKm'),
                             array('escape' => false)
                         ); ?></li> -->
 
@@ -394,27 +394,27 @@
                         <?php if ($this->Session->read('Auth.User.profile_id') != 10 && $profileId != ProfilesEnum::client) { ?>
                             <li> <?= $this->Html->link(
                                     __("SheetRides with consumption"),
-                                    array('controller' => 'sheetRides', 'action' => 'sheetRidesWithConsumption'),
+                                    array('plugin' => null,'controller' => 'sheetRides', 'action' => 'sheetRidesWithConsumption'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Consumptions log"),
-                                    array('controller' => 'consumptions', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'consumptions', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Fuel logs"),
-                                    array('controller' => 'FuelLogs', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'FuelLogs', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Fuel cards"),
-                                    array('controller' => 'fuelCards', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'fuelCards', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -422,7 +422,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Card affectations"),
-                                    array('controller' => 'fuelCardAffectations', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'fuelCardAffectations', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -430,14 +430,14 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Tanks"),
-                                    array('controller' => 'tanks', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'tanks', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Tank fillings"),
-                                    array('controller' => 'tankOperations', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'tankOperations', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -472,14 +472,14 @@
                         <li>
                             <?= $this->Html->link(
                                 __("Subcontractor").'s',
-                                array('controller' => 'suppliers', 'action' => 'indexOffShore', 0),
+                                array('plugin' => null,'controller' => 'suppliers', 'action' => 'indexOffShore', 0),
                                 array('escape' => false)
                             ); ?>
                         </li>
                         <li>
                             <?= $this->Html->link(
                                 __("Contracts"),
-                                array('controller' => 'contracts', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'contracts', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?>
                         </li>
@@ -488,7 +488,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Add car offshore"),
-                                    array('controller' => 'cars', 'action' => 'add', 2),
+                                    array('plugin' => null,'controller' => 'cars', 'action' => 'add', 2),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -496,7 +496,7 @@
                         <li>
                             <?= $this->Html->link(
                                 __("Reservations"),
-                                array('controller' => 'reservations', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'reservations', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?>
                         </li>
@@ -526,24 +526,24 @@
                 <ul class="submenu">
                     <li><?= $this->Html->link(
                             __("Cities"),
-                            array('controller' => 'destinations', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'destinations', 'action' => 'index'),
                             array('escape' => false)
                         ); ?></li>
                     <li> <?= $this->Html->link(
                             __("Rides"),
-                            array('controller' => 'rides', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'rides', 'action' => 'index'),
                             array('escape' => false)
                         ); ?></li>
                     <?php if ($this->Session->read("useRideCategory") == '2') { ?>
                         <li>  <?= $this->Html->link(
                                 __("Ride categories"),
-                                array('controller' => 'rideCategories', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'rideCategories', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?></li>
                     <?php } ?>
                     <li><?= $this->Html->link(
                             __("Rides details"),
-                            array('controller' => 'detailRides', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'detailRides', 'action' => 'index'),
                             array('escape' => false)
                         ); ?></li>
 
@@ -571,17 +571,17 @@
                     <ul class="submenu">
                         <li><?= $this->Html->link(
                                 __("Marchandises"),
-                                array('controller' => 'marchandises', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'marchandises', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?></li>
                         <li>   <?= $this->Html->link(
                                 __("Types"),
-                                array('controller' => 'marchandiseTypes', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'marchandiseTypes', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?></li>
                         <li><?= $this->Html->link(
                                 __("Units"),
-                                array('controller' => 'marchandiseUnits', 'action' => 'index'),
+                                array('plugin' => null,'controller' => 'marchandiseUnits', 'action' => 'index'),
                                 array('escape' => false)
                             ); ?></li>
 
@@ -610,18 +610,18 @@
                 <ul class="submenu">
                     <li><?= $this->Html->link(
                             __("Newspaper events"),
-                            array('controller' => 'events', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'events', 'action' => 'index'),
                             array('escape' => false)
                         ); ?></li>
                     <li>    <?= $this->Html->link(
                             __("Intervention requests"),
-                            array('controller' => 'events', 'action' => 'index_request'),
+                            array('plugin' => null,'controller' => 'events', 'action' => 'index_request'),
                             array('escape' => false)
                         ); ?></li>
             <?php if( $this->Session->read("permissionWorkshop")) { ?>
                     <li>    <?= $this->Html->link(
                             __("Workshops (Entry - Exit)"),
-                            array('controller' => 'events', 'action' => 'getEntryExitWorkshops'),
+                            array('plugin' => null,'controller' => 'events', 'action' => 'getEntryExitWorkshops'),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -644,7 +644,7 @@
                     <li>
                         <?= $this->Html->link(
                             __('Product requests'),
-                            array('controller' => 'bills', 'action' => 'index', 20),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'index', 20),
                             array('escape' => false)
                         ); ?>
                         <div class="li-border"></div>
@@ -652,7 +652,7 @@
                     <li>
                         <?= $this->Html->link(
                             __('Purchase requests'),
-                            array('controller' => 'bills', 'action' => 'index', 21),
+                            array('plugin' => null,'controller' => 'bills', 'action' => 'index', 21),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -697,7 +697,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Products"),
-                                    array('controller' => 'products', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'products', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -705,7 +705,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Stock by warehouses"),
-                                    array('controller' => 'productWarehouses', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'productWarehouses', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -714,7 +714,7 @@
                                 <li>
                                     <?= $this->Html->link(
                                         __("Lots"),
-                                        array('controller' => 'lots', 'action' => 'index'),
+                                        array('plugin' => null,'controller' => 'lots', 'action' => 'index'),
                                         array('escape' => false)
                                     ); ?>
                                 </li>
@@ -722,35 +722,35 @@
                             <li>
                                 <?= $this->Html->link(
                                     __('Receipt'),
-                                    array('controller' => 'bills', 'action' => 'add', 2),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 2),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Return supplier"),
-                                    array('controller' => 'bills', 'action' => 'add', 3),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 3),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __('Delivery order'),
-                                    array('controller' => 'bills', 'action' => 'add', 6),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 6),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Return customer"),
-                                    array('controller' => 'bills', 'action' => 'add', 7),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 7),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __('Commercial stock journal'),
-                                    array('controller' => 'bills', 'action' => 'index', 12),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'index', 12),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -760,7 +760,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Entry order"),
-                                    array('controller' => 'bills', 'action' => 'add', 8),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 8),
                                     array('escape' => false)
                                 ); ?>
 
@@ -768,7 +768,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Bon de renvoi"),
-                                    array('controller' => 'bills', 'action' => 'add', 10),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 10),
                                     array('escape' => false)
                                 ); ?>
 
@@ -776,7 +776,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Exit order"),
-                                    array('controller' => 'bills', 'action' => 'add', 9),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 9),
                                     array('escape' => false)
                                 ); ?>
 
@@ -785,7 +785,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Reintegration order"),
-                                    array('controller' => 'bills', 'action' => 'add', 11),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'add', 11),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -793,7 +793,7 @@
                             <li>
                                 <?= $this->Html->link(
                                     __("Special stock journal"),
-                                    array('controller' => 'bills', 'action' => 'index',13),
+                                    array('plugin' => null,'controller' => 'bills', 'action' => 'index',13),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -838,7 +838,7 @@
                         <ul>
                             <li><?= $this->Html->link(
                                     __("Cars"),
-                                    array('controller' => 'cars', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'cars', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -849,17 +849,27 @@
                         <ul>
                             <li>  <?= $this->Html->link(
                                     __('Newspaper affectations'),
-                                    array('controller' => 'CustomerCars', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CustomerCars', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __('Temporary affectations'),
-                                    array('controller' => 'CustomerCars', 'action' => 'index_temporary'),
+                                    array('plugin' => null,'controller' => 'CustomerCars', 'action' => 'index_temporary'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __('Affectation requests'),
-                                    array('controller' => 'CustomerCars', 'action' => 'index_request'),
+                                    array('plugin' => null,'controller' => 'CustomerCars', 'action' => 'index_request'),
+                                    array('escape' => false)
+                                ); ?></li>
+                            <li><?= $this->Html->link(
+                                    __d('bus_routes','Bus stops'),
+                                    array('plugin' => 'BusRoutes','controller' => 'BusRouteStops', 'action' => 'index'),
+                                    array('escape' => false)
+                                ); ?></li>
+                            <li><?= $this->Html->link(
+                                    __('Rotations'),
+                                    array('plugin' => 'BusRoutes','controller' => 'CustomRoutes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -888,25 +898,25 @@
                 <ul class="submenu">
                     <li><?= $this->Html->link(
                             __("Employees"),
-                            array('controller' => 'customers', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'customers', 'action' => 'index'),
                             array('escape' => false)
                         ); ?>
                     </li>
                     <li><?= $this->Html->link(
                             __("Medical visits"),
-                            array('controller' => 'medicalVisits', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'medicalVisits', 'action' => 'index'),
                             array('escape' => false)
                         ); ?>
                     </li>
                     <li><?= $this->Html->link(
                             __("Warnings"),
-                            array('controller' => 'warnings', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'warnings', 'action' => 'index'),
                             array('escape' => false)
                         ); ?>
                     </li>
                     <li><?= $this->Html->link(
                             __("Absences"),
-                            array('controller' => 'absences', 'action' => 'index'),
+                            array('plugin' => null,'controller' => 'absences', 'action' => 'index'),
                             array('escape' => false)
                         ); ?>
                     </li>
@@ -993,58 +1003,58 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Categories"),
-                                    array('controller' => 'CarCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CarCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li>  <?= $this->Html->link(
                                     __("Groups"),
-                                    array('controller' => 'carGroups', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'carGroups', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
                             <li>  <?= $this->Html->link(
                                     __("Types"),
-                                    array('controller' => 'CarTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CarTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("Statutes"),
-                                    array('controller' => 'CarStatuses', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CarStatuses', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("States"),
-                                    array('controller' => 'CarStates', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CarStates', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __("Marks"),
-                                    array('controller' => 'marks', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'marks', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __("Models"),
-                                    array('controller' => 'carmodels', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'carmodels', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __("Fuels"),
-                                    array('controller' => 'fuels', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'fuels', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("Acquisition types"),
-                                    array('controller' => 'AcquisitionTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'AcquisitionTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("Parcs"),
-                                    array('controller' => 'parcs', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'parcs', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("Tonnages"),
-                                    array('controller' => 'tonnages', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'tonnages', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                         </ul>
@@ -1057,40 +1067,40 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Categories"),
-                                    array('controller' => 'CustomerCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'CustomerCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
                             <li>  <?= $this->Html->link(
                                     __("Groups"),
-                                    array('controller' => 'customerGroups', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'customerGroups', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li>  <?= $this->Html->link(
                                     __("Affiliates"),
-                                    array('controller' => 'Affiliates', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'Affiliates', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __("Departments"),
-                                    array('controller' => 'departments', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'departments', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li><?= $this->Html->link(
                                     __("Services"),
-                                    array('controller' => 'services', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'services', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
                             <li><?= $this->Html->link(
                                     __("Warning types"),
-                                    array('controller' => 'warningTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'warningTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
                             <li><?= $this->Html->link(
                                     __("Absence reasons"),
-                                    array('controller' => 'absenceReasons', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'absenceReasons', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                         </ul>
@@ -1103,7 +1113,7 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Options"),
-                                    array('controller' => 'carOptions', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'carOptions', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -1118,20 +1128,20 @@
                         <ul class="dropdown-menu">
                             <li>  <?= $this->Html->link(
                                     __("Types"),
-                                    array('controller' => 'EventTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'EventTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Interfering Types"),
-                                    array('controller' => 'InterferingTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'InterferingTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Interferings"),
-                                    array('controller' => 'Interferings', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'Interferings', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1139,7 +1149,7 @@
             if( $this->Session->read("permissionWorkshop")) { ?>
                             <li>    <?= $this->Html->link(
                                     __("Workshops"),
-                                    array('controller' => 'workshops', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'workshops', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1155,34 +1165,34 @@
                         <ul class="dropdown-menu">
                             <li>   <?= $this->Html->link(
                                     __("Categories"),
-                                    array('controller' => 'ProductCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'ProductCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>   <?= $this->Html->link(
                                     __("Types"),
-                                    array('controller' => 'ProductTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'ProductTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Marks"),
-                                    array('controller' => 'ProductMarks', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'ProductMarks', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Families"),
-                                    array('controller' => 'ProductFamilies', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'ProductFamilies', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("TVA"),
-                                    array('controller' => 'tvas', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'tvas', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1190,32 +1200,32 @@
             if( $this->Session->read("multiWarehouses")==2) { ?>
                             <li><?= $this->Html->link(
                                     __("Warehouses"),
-                                    array('controller' => 'warehouses', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'warehouses', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                 <?php } ?>
                             <li><?= $this->Html->link(
                                     __("Tariffs"),
-                                    array('controller' => 'priceCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'priceCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>   <?= $this->Html->link(
                                     __("Units"),
-                                    array('controller' => 'ProductUnits', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'ProductUnits', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>   <?= $this->Html->link(
                                     __("Factors"),
-                                    array('controller' => 'Factors', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'Factors', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>   <?= $this->Html->link(
                                     __("Lot types"),
-                                    array('controller' => 'LotTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'LotTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1230,20 +1240,20 @@
                         <ul class="dropdown-menu">
                             <li>   <?= $this->Html->link(
                                     __("Marks"),
-                                    array('controller' => 'TireMarks', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'TireMarks', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>
                                 <?= $this->Html->link(
                                     __("Positions"),
-                                    array('controller' => 'positions', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'positions', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li>  <?= $this->Html->link(
                                     __("Locations"),
-                                    array('controller' => 'locations', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'locations', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1258,7 +1268,7 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Clients categories"),
-                                    array('controller' => 'SupplierCategories', 'action' => 'index', 1),
+                                    array('plugin' => null,'controller' => 'SupplierCategories', 'action' => 'index', 1),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -1273,17 +1283,17 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Wilayas"),
-                                    array('controller' => 'wilayas', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'wilayas', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li> <?= $this->Html->link(
                                     __("Dairas"),
-                                    array('controller' => 'dairas', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'dairas', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                             <li>        <?= $this->Html->link(
                                     __("Zones"),
-                                    array('controller' => 'zones', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'zones', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                         </ul>
@@ -1296,7 +1306,7 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Types"),
-                                    array('controller' => 'attachmentTypes', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'attachmentTypes', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -1312,7 +1322,7 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Supplier categories"),
-                                    array('controller' => 'SupplierCategories', 'action' => 'index', 0),
+                                    array('plugin' => null,'controller' => 'SupplierCategories', 'action' => 'index', 0),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -1328,20 +1338,20 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Bill categories"),
-                                    array('controller' => 'transportBillCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'transportBillCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Payment categories"),
-                                    array('controller' => 'paymentCategories', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'paymentCategories', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
 
                             <li> <?= $this->Html->link(
                                     __("Cancel causes"),
-                                    array('controller' => 'cancelCauses', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'cancelCauses', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
 
@@ -1350,7 +1360,7 @@
                          if ($this->Session->read("permissionComplaint")) { ?>
                              <li> <?= $this->Html->link(
                                      __("Complaint causes"),
-                                     array('controller' => 'complaintCauses', 'action' => 'index'),
+                                     array('plugin' => null,'controller' => 'complaintCauses', 'action' => 'index'),
                                      array('escape' => false)
                                  ); ?>
                              </li>
@@ -1359,13 +1369,13 @@
                             ?>
                             <li> <?= $this->Html->link(
                                     __("Penalties"),
-                                    array('controller' => 'penalties', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'penalties', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Treatments"),
-                                    array('controller' => 'treatments', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'treatments', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1381,7 +1391,7 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Travel reasons"),
-                                    array('controller' => 'travelReasons', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'travelReasons', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?></li>
                         </ul>
@@ -1400,13 +1410,13 @@
                         <ul class="dropdown-menu">
                             <li> <?= $this->Html->link(
                                     __("Countries"),
-                                    array('controller' => 'nationalities', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'nationalities', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
                             <li> <?= $this->Html->link(
                                     __("Currencies"),
-                                    array('controller' => 'currencies', 'action' => 'index'),
+                                    array('plugin' => null,'controller' => 'currencies', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
                             </li>
@@ -1429,7 +1439,7 @@
 
             <?= $this->Html->link(
                 '<i class="zmdi zmdi-chart"></i> <span>' . __('Statistics') . '</span>',
-                array('controller' => 'statistics', 'action' => 'index'),
+                array('plugin' => null,'controller' => 'statistics', 'action' => 'index'),
                 array('escape' => false)
             ); ?>
             <?= "</li>" ?>

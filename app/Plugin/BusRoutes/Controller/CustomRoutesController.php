@@ -138,7 +138,7 @@ class CustomRoutesController extends BusRoutesAppController {
         $busStops = $this->BusStop->getRouteBusStops($id, $busRoute['BusRoute']['route_type']);
         $geoFencesEvents = $this->GeofencesAlert->find('all',array(
             'conditions' => array(
-                'DATE(GeofencesAlert.created_at) >' => '2022-12-21', //date('Y-m-d',strtotime("-1 days")),
+                'DATE(GeofencesAlert.created_at) >' => date('Y-m-d',strtotime("-1 days")),
                 'GeofencesAlert.tracker_id' => $busRoute['Car']['tracker_id']
             ),
             'fields' => array(
