@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" >
     	<?php   if(Configure::read("engin") == '1') {  ?>
 		<link rel="shortcut icon" href="img/favicon_engines.ico">
-		<?php   }elseif (Configure::read("parc_master") == '1' ||
+		<?php   }elseif (Configure::read("djazfleet") == '1' ||
             Configure::read("logistia") == '1' || Configure::read("engin") == '1') {
     	    ?>
             <link rel="shortcut icon">
