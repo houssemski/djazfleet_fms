@@ -127,25 +127,25 @@ if ($this->params['action'] == "login") {
                         if (Configure::read("djazfleet") == '1'){ ?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null, 'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo_djazfleet')
                             ); ?>
                         <?php }elseif(Configure::read("logistia") == '1') {  ?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo_logistia')
                             ); ?>
                         <?php    }elseif(Configure::read("engin") == '1') {  ?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo_engin')
                             ); ?>
                         <?php    }else { ?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo')
                             ); ?>
                         <?php  }
@@ -155,19 +155,19 @@ if ($this->params['action'] == "login") {
                         <?php if (Configure::read("parc_master") == '1'){ ?>
                             <?= $this->Html->link(
                             "",
-                            array('controller' => 'pages', 'action' => 'display'),
+                            array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                             array('escape' => false, 'class' => 'logo_parc_master' )
                         ); ?>
                         <?php }elseif (Configure::read("logistia") == '1'){ ?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo_logistia' )
                             ); ?>
                         <?php }else{?>
                             <?= $this->Html->link(
                                 "",
-                                array('controller' => 'pages', 'action' => 'display'),
+                                array('plugin ' => null,'controller' => 'pages', 'action' => 'display'),
                                 array('escape' => false, 'class' => 'logo')
                             ); ?>
                             <?php } ?>
@@ -176,7 +176,7 @@ if ($this->params['action'] == "login") {
                 <?php } else { ?>
                     <?= $this->Html->link(
                         "",
-                        array('controller' => 'transport_bills', 'action' => 'index', 0),
+                        array('plugin ' => null,'controller' => 'transport_bills', 'action' => 'index', 0),
                         array('escape' => false, 'class' => 'logo')
                     ); ?>
                 <?php }
@@ -331,7 +331,7 @@ if ($this->params['action'] == "login") {
                             <li>
                                 <?= $this->Html->link(
                                     '<i class="ti-lock m-r-5"></i>' . __("Users"),
-                                    array('controller' => 'users', 'action' => 'index'),
+                                    array('plugin ' => null,'controller' => 'users', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
 
@@ -339,7 +339,7 @@ if ($this->params['action'] == "login") {
                             <li>
                                 <?= $this->Html->link(
                                     '<i class="ti-user m-r-5"></i>' . __("Profiles"),
-                                    array('controller' => 'profiles', 'action' => 'index'),
+                                    array('plugin ' => null,'controller' => 'profiles', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
 
@@ -348,7 +348,7 @@ if ($this->params['action'] == "login") {
                             <li>
                                 <?= $this->Html->link(
                                     '<i class="ti-settings m-r-5"></i>' . __("Parameters"),
-                                    array('controller' => 'parameters', 'action' => 'index'),
+                                    array('plugin ' => null,'controller' => 'parameters', 'action' => 'index'),
                                     array('escape' => false)
                                 ); ?>
 
@@ -359,7 +359,7 @@ if ($this->params['action'] == "login") {
                             <li>
                                 <?= $this->Html->link(
                                     '<i class="ti-user m-r-5"></i>' . __("Profile"),
-                                    array(
+                                    array('plugin ' => null,
                                             'controller' => 'users',
                                         'action' => 'edit',
                                         $this->Session->read('Auth.User.id')),
@@ -373,7 +373,7 @@ if ($this->params['action'] == "login") {
                         <li>
                             <?= $this->Html->link(
                                 '<i class="ti-power-off m-r-5"></i>' . __("Logout"),
-                                array('controller' => 'users', 'action' => 'logout'),
+                                array('plugin ' => null,'controller' => 'users', 'action' => 'logout'),
                                 array('escape' => false)
                             ); ?>
 
