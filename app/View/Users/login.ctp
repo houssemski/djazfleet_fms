@@ -28,13 +28,13 @@
             <div class="text-center">
                 <img src="../img/--logo_engines.png"/>
             </div>
-        <?php   } elseif (Configure::read("parc_master") == '1'){ ?>
+        <?php   } elseif (Configure::read("djazfleet") == '1'){ ?>
             <div class="text-center">
-                <img src="../img/parc_master.png"/>
+                <img src="../img/djazfleet-fms.png"/>
             </div>
         <?php }elseif (Configure::read("logistia") == '1'){ ?>
             <div class="text-center">
-                <img src="../img/logo_logistia.png"/>
+                <img style="width: " src="../img/logo_logistia.png"/>
             </div>
         <?php }else { ?>
 
@@ -56,9 +56,9 @@
 
 
      } }else { ?>
-        <?php if(Configure::read("parc_master") == '1'){ ?>
+        <?php if(Configure::read("djazfleet") == '1'){ ?>
             <div class="text-center">
-                <img src="../img/parc_master.png"/>
+                <img src="../img/djazfleet-fms.png"/>
             </div>
          <?php }elseif (Configure::read("logistia") == '1'){ ?>
             <div class="text-center">
@@ -114,8 +114,8 @@
                         if(Configure::read("engin") == '1') { ?>
                             <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> Engines Soft v 2.5.0.3</a></span>
 
-                        <?php   }elseif (Configure::read("logistia") == '1'){ ?>
-                            <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> LOGISTIA v 2.5.0.3</a></span>
+                        <?php   }elseif (Configure::read("djazfleet") == '1'){ ?>
+                            <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> Djazfleet gestion de parc v 2.5.0.3</a></span>
                         <?php }else { ?>
                             <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> UtranX v 2.5.0.3</a></span>
 
@@ -125,9 +125,9 @@
 
                         <?php } else { ?>
                             <?php
-                            if (Configure::read("logistia") == '1'){
+                            if (Configure::read("djazfleet") == '1'){
                             ?>
-                                <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> LOGISTIA v 2.5.0.3</a></span>
+                                <span>Copyright © 2015 - 2022&nbsp&nbsp;<a href="#" target="_blank"> Djazfleet gestion de parc v 2.5.0.3</a></span>
                                 <?php
                             }else{
                                 ?>

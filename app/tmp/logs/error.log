@@ -4012,3 +4012,14 @@ Request URL: /utranx/BusRoutes/BusRouteStops/img/favicon.ico
 Stack Trace:
 #0 C:\wamp64\www\utranx\app\webroot\index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2023-02-20 16:39:31 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /djazfleet_fms/users/img/favicon.ico
+Stack Trace:
+#0 C:\wamp64\www\djazfleet_fms\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp64\www\djazfleet_fms\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp64\www\djazfleet_fms\app\webroot\index.php(113): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

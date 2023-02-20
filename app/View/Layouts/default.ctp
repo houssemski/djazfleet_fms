@@ -18,8 +18,8 @@
 		  <?php    } ?>
     <?php   if(Configure::read("engin") == '1') {  ?>
             <title>Engines</title>
-    <?php   }elseif (Configure::read("parc_master") == '1'){?>
-            <title>PARCMASTER</title>
+    <?php   }elseif (Configure::read("djazfleet") == '1'){?>
+            <title>Djezfleet gestion de parc</title>
         <?php }elseif (Configure::read("logistia") == '1'){?>
             <title>LOGISTIA</title>
         <?php }else {  ?>
@@ -31,9 +31,9 @@
         <meta name="description" content="UTRANX THEME">
         <meta name="author" content="Coderthemes">
         <?php
-        if (Configure::read("parc_master") == '1'){
+        if (Configure::read("djazfleet") == '1'){
         ?>
-            <title>PARCMASTER</title>
+            <title>Djezfleet gestion de parc</title>
             <?php
         }elseif (Configure::read("logistia") == '1'){?>
             <title>LOGISTIA</title>
@@ -59,6 +59,8 @@
         echo $this->Html->css('parc_master');
     }elseif (Configure::read('logistia') == '1'){
         echo $this->Html->css('logistia');
+    } elseif (Configure::read('djazfleet') == '1'){
+        echo $this->Html->css('djazfleet');
     }
     echo $this->Html->css('menu');
     echo $this->Html->css('responsive');
@@ -122,11 +124,11 @@ if ($this->params['action'] == "login") {
                 if ($profileId != ProfilesEnum::client) { ?>
 
                     <?php if(Configure::read("gestion_commercial") == '1') {
-                        if (Configure::read("parc_master") == '1'){ ?>
+                        if (Configure::read("djazfleet") == '1'){ ?>
                             <?= $this->Html->link(
                                 "",
                                 array('controller' => 'pages', 'action' => 'display'),
-                                array('escape' => false, 'class' => 'logo_parc_master')
+                                array('escape' => false, 'class' => 'logo_djazfleet')
                             ); ?>
                         <?php }elseif(Configure::read("logistia") == '1') {  ?>
                             <?= $this->Html->link(
@@ -485,11 +487,11 @@ if ($this->params['action'] == "login") {
                     </p>
 
                     <?php
-                }elseif(Configure::read("parc_master") == '1') {
+                }elseif(Configure::read("djazfleet") == '1') {
                         ?>
 
                         <p><a class="aiparc" href=""
-                              target="_blank" style="color:#e5c68f!important;"> PARCMASTER  </a> v 2.7.0.2 Copyright &nbsp;&copy;
+                              target="_blank" > Djazfleet gestion de parc  </a> v 2.7.0.2 Copyright &nbsp;&copy;
                             2015 -
                             2022&nbsp&nbsp;
 

@@ -1,0 +1,11 @@
+.logo_djazfleet{
+    color: #ffffff !important;
+    font-size: 32px;
+    margin-top: 8px;
+    font-family: 'Rancho', cursive;
+    float: left;
+    background: url('../img/djazfleet-fms.png') no-repeat 0 0;
+    width:247px;
+    height:64px;
+    border: none !important;
+}
