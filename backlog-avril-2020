@@ -1,0 +1,32 @@
+modification pour fms (iparc sans utranx)
+
+
+tableau de bord : 
+- enlever la vente pour version iparc utranx  : cest fait 
+- finance mettre depense : achat carburant , achat piece et event  : cest fait 
+- 
+- se connecter à jasfleet dans lien rapide  : cest fait 
+- achat : enlever facture et avoir : cest fait 
+- lier tous les achat et vente avec les caisses : par exp   consommation espece : cest fait 
+-dans le menu mettre ajouter feuille route et liste de feuille de route de mm pour mission et mm dans tt le menu : cait fait
+- ajouter un parametrage autorisation de ciasse negative ou non si c oui il faut verifier si la caise a de largent 
+kil faut dans consommation carburant si c non on accepte. cest fait 
+- enlever mission factuer et mettre depart non obligatoire : cest fait 
+- ajouter client : cest fait 
+- verifier paiement frais de missions dans la liste cest fait 
+-enlever produits : cest fait 
+- enlever les informations de gestions commerciales dans divers et stats  : cest fait 
+- ajouter pieces jointes avec categorie client (utranx) :cest fait
+
+
+
+- lier tous les achat et vente avec les caisses : par exp  achat carnet carburant : cest fait 
+- dans iparc : ajouter parametrage piece joite à afficher dans feuille de route : cest fait 
+- ajout rapide pour les select verifier le tous 
+- gestion des inventaires 
+-verifier les traductions 
+
+-synchronisation avc jasfleet localisation et login 
+
+
+

@@ -1,0 +1,25 @@
+@media print {
+    @page {
+        margin: 0 0; /* imprtant to logo margin */
+        sheet-size: 300px 250mm; /* imprtant to set paper size */
+    }
+    html {
+        direction: rtl;
+    }
+    html,body{margin:0;padding:0}
+    #printContainer {
+        width: 250px;
+        margin: 0;
+        /*padding: 10px;*/
+        /*border: 2px dotted #000;*/
+        text-align: justify;
+    }
+
+    .text-center{text-align: center;}
+    .price{
+        text-align: right;
+    }
+    .quantity{
+        text-align: center;
+    }
+}

@@ -1,0 +1,477 @@
+
+#header {
+    left: 25px;
+    right: 25px;
+    border-bottom: 3px solid #000;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.toletters {
+    font-size: 10px;
+}
+
+#header table {
+    width: 100%;
+}
+
+#slogan{
+    vertical-align: -100%;
+}
+#header td.logo {
+    vertical-align: top;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.company {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: center;
+}
+
+.info_company {
+    font-size: 11px !important;
+    line-height: 18px;
+    text-align: left;
+    float: left !important;
+}
+
+.info_fiscal {
+    width: 20%;
+    padding-top: 35px;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: left !important;
+}
+
+.info_fiscal > div {
+    font-size: 11px !important;
+    text-align: left;
+}
+
+.adr {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.date {
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.box-body {
+    padding: 0;
+    position: relative;
+}
+
+.bloc-center {
+    width: 90%;
+}
+
+.document_reference {
+    width: 60%;
+}
+
+.facture {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.doit {
+    width: 40%;
+    margin-right: 25px;
+}
+
+
+.mode-payment {
+    font-size: 12px;
+    width: 350px;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    border: 1px solid #000;
+}
+
+.payment-table {
+    border: 1px solid #000;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.main-table th {
+    border: 1px solid #777;
+    padding-left: 3px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.main-table td {
+    text-align: left;
+    padding: 3px;
+    font-size: 11px;
+}
+
+.payment-table th {
+    border: 1px solid #000;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.payment-table td {
+    text-align: left;
+    padding: 3px 5px;
+    font-size: 11px;
+    border: 0.1mm solid #000000;
+}
+
+.total {
+    page-break-inside: avoid !important;
+    width: 250px;
+    bottom: 150px;
+    float: right;
+    right: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.total-left {
+    page-break-inside: avoid !important;
+    width: 250px;
+    bottom: 150px;
+    float: left;
+    right: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.total-global {
+    page-break-inside: avoid !important;
+    width: 250px;
+    bottom: 150px;
+    float: right;
+    padding: 10px;
+}
+
+.nombre-lettre {
+    width: 450px;
+    bottom: 200px;
+    float: left;
+    left: 20px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.total span {
+    page-break-inside: avoid !important;
+    padding: 0 10px;
+    line-height: 10px;
+    font-size: 13px;
+    margin: 0;
+}
+
+#footer {
+    font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: -90px;
+    right: 0;
+    height: 45px;
+}
+
+.total div.left {
+    width: 40%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.total div.right {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+
+.ttc {
+    border-top: 1px solid #000;
+    padding-bottom: 0;
+}
+
+.client {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+    padding-top: 10px;
+}
+.adr-client {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.info_client {
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.balance {
+    width: 250px;
+    position: absolute;
+    bottom: 150px;
+    float: right;
+    right: 25px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.barcode_table {
+    font-size: 12px;
+}
+
+.barcode_table .barcode_tr {
+    padding-top: 20px;
+}
+
+.barcode_table th {
+    text-align: left;
+    vertical-align: top;
+}
+
+.delivery th td {
+    width: 150px;
+}
+
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+p {	margin: 0; }
+
+
+table.items {
+    border: 0.1mm solid #000000;
+}
+table.items th{
+    font-size: 10px;
+}
+table.items td{
+    font-size: 10px;
+}
+td { vertical-align: top; }
+.items td {
+    border-left: 0.1mm solid #000000;
+    border-right: 0.1mm solid #000000;
+}
+table thead th { background-color: #EEEEEE;
+    text-align: center;
+    border: 0.1mm solid #000000;
+
+}
+.items td.blanktotal {
+    background-color: #fff;
+    border: 0 none #000000;
+    border-top: 0.1mm solid #000000;
+    border-right: 0.1mm solid #000000;
+}
+.items td.totals {
+    text-align: left;
+    border: 0.1mm solid #000000;
+}
+.items td.cost {
+    text-align:  right;
+    font-size: small;
+	font-size: 10px;
+}
+.items td{
+    font-size: small;
+}
+.logo-print{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+}
+.bold{font-weight: bold !important;}
+
+.totals-table{
+    width: 50%;
+    float: left;
+    text-align: right;
+    border-collapse: collapse;
+}
+.totals-table td{
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #bcbebf;
+}
+.last-td{
+    border-bottom: 0.1mm solid #000000;
+}
+
+tbody.items{
+    height: 1200px !important;
+}
+.payment-date{
+    text-align: center;
+}
+
+.blank{
+    color: #ffffff;
+}
+.payment-th{
+    background-color: #EEEEEE;
+    text-align: center;
+    border: 0.1mm solid #000000;
+}
+.concatenated{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.first-row-concatenated{
+    padding-bottom: 0;
+}
+.stamp-print{
+    position: absolute;
+    top: 790px;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.bloc-info{
+    width: 25%;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+.bloc-client{
+    width: 75% !important;
+    margin-right: 0px !important;
+}
+.facture-center{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px
+}
+
+.ref{
+    border-bottom: 0.1mm solid #000000;
+    border-top: 0.1mm solid #000000;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: bold
+}
+.ref-left{
+    width:35%;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ref-right{
+    width:50%;
+    border-left: 0.1mm solid #000000;
+    text-align: right;
+    display: inline-block;
+    padding-top: 7px;
+}
+.ref-left-2{
+    width:35%;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ref-right-2{
+    width:50%;
+    border-left: 0.1mm solid #000000;
+    text-align: right;
+    display: inline-block;
+    padding-top: 7px;
+}
+.date-client{
+    margin-bottom: 0px!important;
+    font-size: 10px;
+    padding-bottom:0px!important; ;
+}
+
+.payment-table {
+    border: 1px solid #000;
+    width: 70%;
+    margin: 30px 0;
+}
+.payment-table-2 {
+    border: 1px solid #000;
+    width: 70%;
+}
+
+.payment-table th {
+    border: 1px solid #000;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.payment-table td {
+    text-align: left;
+    padding: 3px 5px;
+    font-size: 11px;
+    border: 0.1mm solid #000000;
+}
+.payment-table-2 th {
+    border: 1px solid #000;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.payment-table-2 td {
+    text-align: left;
+    padding: 3px 5px;
+    font-size: 11px;
+    border: 0.1mm solid #000000;
+}
+
+.space{
+    height: 10px;
+}
+
+
+
+
+
+.border-colapse {
+    border-collapse: collapse;
+    border: 0.0mm solid #000000;
+}
+ .border-colapse td{
+    border: 0.001mm solid #000000;
+    border-collapse: collapse;
+}
+.bold{
+    font-size: 10px;
+    font-weight: bold
+}
+.padding{
+    padding: 8px;
+}
+#print-name{
+    font-size: 18px;
+}

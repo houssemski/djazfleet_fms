@@ -1,0 +1,2057 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-12-29 16:25+0100\n"
+"PO-Revision-Date: 2014-12-30 16:16+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.1\n"
+"Language: en\n"
+
+#: Controller/CarCategoriesController.php:38;70;95;125;157;182
+msgid "Invalid car category"
+msgstr "Invalid car category"
+
+#: Controller/CarCategoriesController.php:53;74;140;161
+msgid "The car category has been saved."
+msgstr "The car category has been saved."
+
+#: Controller/CarCategoriesController.php:56;77;143;164
+msgid "The car category could not be saved. Please, try again."
+msgstr "The car category could not be saved. Please, try again."
+
+#: Controller/CarCategoriesController.php:99;186
+msgid "The car category has been deleted."
+msgstr "The car category has been deleted."
+
+#: Controller/CarCategoriesController.php:101;188
+msgid "The car category could not be deleted. Please, try again."
+msgstr "The car category could not be deleted. Please, try again."
+
+#: Controller/CarStatusesController.php:48;80;105
+msgid "Invalid car status"
+msgstr "Invalid car status"
+
+#: Controller/CarStatusesController.php:63;84
+msgid "The car status has been saved."
+msgstr "The car status has been saved."
+
+#: Controller/CarStatusesController.php:66;87
+msgid "The car status could not be saved. Please, try again."
+msgstr "The car status could not be saved. Please, try again."
+
+#: Controller/CarStatusesController.php:109
+msgid "The car status has been deleted."
+msgstr "The car status has been deleted."
+
+#: Controller/CarStatusesController.php:111
+msgid "The car status could not be deleted. Please, try again."
+msgstr "The car status could not be deleted. Please, try again."
+
+#: Controller/CarTypesController.php:38;70;95;125;157;182
+msgid "Invalid car type"
+msgstr "Invalid car type"
+
+#: Controller/CarTypesController.php:53;74;140;161
+msgid "The car type has been saved."
+msgstr "The car type has been saved."
+
+#: Controller/CarTypesController.php:56;77;143;164
+msgid "The car type could not be saved. Please, try again."
+msgstr "The car type could not be saved. Please, try again."
+
+#: Controller/CarTypesController.php:99;186
+msgid "The car type has been deleted."
+msgstr "The car type has been deleted."
+
+#: Controller/CarTypesController.php:101;188
+msgid "The car type could not be deleted. Please, try again."
+msgstr "The car type could not be deleted. Please, try again."
+
+#: Controller/CarsController.php:38;78;111;141;181;214
+msgid "Invalid car"
+msgstr "Invalid car"
+
+#: Controller/CarsController.php:53;82;156;185
+msgid "The car has been saved."
+msgstr "The car has been saved."
+
+#: Controller/CarsController.php:56;85;159;188
+msgid "The car could not be saved. Please, try again."
+msgstr "The car could not be saved. Please, try again."
+
+#: Controller/CarsController.php:115;218
+msgid "The car has been deleted."
+msgstr "The car has been deleted."
+
+#: Controller/CarsController.php:117;220
+msgid "The car could not be deleted. Please, try again."
+msgstr "The car could not be deleted. Please, try again."
+
+#: Controller/CustomerCarsController.php:38;73;101;131;166;194
+msgid "Invalid customer car"
+msgstr ""
+
+#: Controller/CustomerCarsController.php:53;77;146;170
+msgid "The customer car has been saved."
+msgstr ""
+
+#: Controller/CustomerCarsController.php:56;80;149;173
+msgid "The customer car could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CustomerCarsController.php:105;198
+msgid "The customer car has been deleted."
+msgstr ""
+
+#: Controller/CustomerCarsController.php:107;200
+msgid "The customer car could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CustomerCategoriesController.php:38;70;95;125;157;182
+msgid "Invalid customer category"
+msgstr "Invalid customer category"
+
+#: Controller/CustomerCategoriesController.php:53;74;140;161
+msgid "The customer category has been saved."
+msgstr "The customer category has been saved."
+
+#: Controller/CustomerCategoriesController.php:56;77;143;164
+msgid "The customer category could not be saved. Please, try again."
+msgstr "The customer category could not be saved. Please, try again."
+
+#: Controller/CustomerCategoriesController.php:99;186
+msgid "The customer category has been deleted."
+msgstr "The customer category has been deleted."
+
+#: Controller/CustomerCategoriesController.php:101;188
+msgid "The customer category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CustomersController.php:38;73;101;131;166;194
+msgid "Invalid customer"
+msgstr ""
+
+#: Controller/CustomersController.php:53;77;146;170
+msgid "The customer has been saved."
+msgstr ""
+
+#: Controller/CustomersController.php:56;80;149;173
+msgid "The customer could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CustomersController.php:105;198
+msgid "The customer has been deleted."
+msgstr ""
+
+#: Controller/CustomersController.php:107;200
+msgid "The customer could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EventTypesController.php:38;70;95;125;157;182
+msgid "Invalid event type"
+msgstr ""
+
+#: Controller/EventTypesController.php:53;74;140;161
+msgid "The event type has been saved."
+msgstr ""
+
+#: Controller/EventTypesController.php:56;77;143;164
+msgid "The event type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventTypesController.php:99;186
+msgid "The event type has been deleted."
+msgstr ""
+
+#: Controller/EventTypesController.php:101;188
+msgid "The event type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/EventsController.php:38;74;103;133;169;198
+msgid "Invalid event"
+msgstr ""
+
+#: Controller/EventsController.php:53;78;148;173
+msgid "The event has been saved."
+msgstr ""
+
+#: Controller/EventsController.php:56;81;151;176
+msgid "The event could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/EventsController.php:107;202
+msgid "The event has been deleted."
+msgstr ""
+
+#: Controller/EventsController.php:109;204
+msgid "The event could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/FuelsController.php:38;70;95;125;157;182
+msgid "Invalid fuel"
+msgstr ""
+
+#: Controller/FuelsController.php:53;74;140;161
+msgid "The fuel has been saved."
+msgstr ""
+
+#: Controller/FuelsController.php:56;77;143;164
+msgid "The fuel could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FuelsController.php:99;186
+msgid "The fuel has been deleted."
+msgstr ""
+
+#: Controller/FuelsController.php:101;188
+msgid "The fuel could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/InterferingTypesController.php:38;70;95;125;157;182
+msgid "Invalid interfering type"
+msgstr ""
+
+#: Controller/InterferingTypesController.php:53;74;140;161
+msgid "The interfering type has been saved."
+msgstr ""
+
+#: Controller/InterferingTypesController.php:56;77;143;164
+msgid "The interfering type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InterferingTypesController.php:99;186
+msgid "The interfering type has been deleted."
+msgstr ""
+
+#: Controller/InterferingTypesController.php:101;188
+msgid "The interfering type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/InterferingsController.php:38;72;99;129;163;190
+msgid "Invalid interfering"
+msgstr ""
+
+#: Controller/InterferingsController.php:53;76;144;167
+msgid "The interfering has been saved."
+msgstr ""
+
+#: Controller/InterferingsController.php:56;79;147;170
+msgid "The interfering could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InterferingsController.php:103;194
+msgid "The interfering has been deleted."
+msgstr ""
+
+#: Controller/InterferingsController.php:105;196
+msgid "The interfering could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/MarksController.php:38;70;95;125;157;182
+msgid "Invalid mark"
+msgstr ""
+
+#: Controller/MarksController.php:53;74;140;161
+msgid "The mark has been saved."
+msgstr ""
+
+#: Controller/MarksController.php:56;77;143;164
+msgid "The mark could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MarksController.php:99;186
+msgid "The mark has been deleted."
+msgstr ""
+
+#: Controller/MarksController.php:101;188
+msgid "The mark could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/ParametersController.php:38;70;95;125;157;182
+msgid "Invalid parameter"
+msgstr ""
+
+#: Controller/ParametersController.php:53;74;140;161
+msgid "The parameter has been saved."
+msgstr ""
+
+#: Controller/ParametersController.php:56;77;143;164
+msgid "The parameter could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ParametersController.php:99;186
+msgid "The parameter has been deleted."
+msgstr ""
+
+#: Controller/ParametersController.php:101;188
+msgid "The parameter could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:38;70;95;125;157;182
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:53;74;140;161
+msgid "The user has been saved."
+msgstr ""
+
+#: Controller/UsersController.php:56;77;143;164
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:99;186
+msgid "The user has been deleted."
+msgstr ""
+
+#: Controller/UsersController.php:101;188
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: View/CarCategories/add.ctp:4
+msgid "Add Car Category"
+msgstr ""
+
+#: View/CarCategories/add.ctp:10 View/CarCategories/admin_add.ctp:10
+#: View/CarCategories/admin_edit.ctp:11 View/CarCategories/edit.ctp:11
+#: View/CarStatuses/add.ctp:9 View/CarStatuses/admin_add.ctp:9
+#: View/CarStatuses/admin_edit.ctp:10 View/CarStatuses/edit.ctp:10
+#: View/CarTypes/add.ctp:9 View/CarTypes/admin_add.ctp:9
+#: View/CarTypes/admin_edit.ctp:10 View/CarTypes/edit.ctp:10
+#: View/Cars/add.ctp:26 View/Cars/admin_add.ctp:26
+#: View/Cars/admin_edit.ctp:27 View/Cars/edit.ctp:27
+#: View/CustomerCars/add.ctp:12 View/CustomerCars/admin_add.ctp:12
+#: View/CustomerCars/admin_edit.ctp:13 View/CustomerCars/edit.ctp:13
+#: View/CustomerCategories/add.ctp:10
+#: View/CustomerCategories/admin_add.ctp:10
+#: View/CustomerCategories/admin_edit.ctp:11
+#: View/CustomerCategories/edit.ctp:11 View/Customers/add.ctp:29
+#: View/Customers/admin_add.ctp:29 View/Customers/admin_edit.ctp:30
+#: View/Customers/edit.ctp:30 View/EventTypes/add.ctp:10
+#: View/EventTypes/admin_add.ctp:10 View/EventTypes/admin_edit.ctp:11
+#: View/EventTypes/edit.ctp:11 View/Events/add.ctp:19
+#: View/Events/admin_add.ctp:19 View/Events/admin_edit.ctp:20
+#: View/Events/edit.ctp:20 View/Fuels/add.ctp:9 View/Fuels/admin_add.ctp:9
+#: View/Fuels/admin_edit.ctp:10 View/Fuels/edit.ctp:10
+#: View/InterferingTypes/add.ctp:9 View/InterferingTypes/admin_add.ctp:9
+#: View/InterferingTypes/admin_edit.ctp:10 View/InterferingTypes/edit.ctp:10
+#: View/Interferings/add.ctp:12 View/Interferings/admin_add.ctp:12
+#: View/Interferings/admin_edit.ctp:13 View/Interferings/edit.ctp:13
+#: View/Marks/add.ctp:9 View/Marks/admin_add.ctp:9
+#: View/Marks/admin_edit.ctp:10 View/Marks/edit.ctp:10
+#: View/Parameters/add.ctp:10 View/Parameters/admin_add.ctp:10
+#: View/Parameters/admin_edit.ctp:11 View/Parameters/edit.ctp:11
+#: View/Users/add.ctp:13 View/Users/admin_add.ctp:13
+#: View/Users/admin_edit.ctp:14 View/Users/edit.ctp:14
+msgid "Submit"
+msgstr ""
+
+#: View/CarCategories/add.ctp:13 View/CarCategories/admin_add.ctp:13
+#: View/CarCategories/admin_edit.ctp:14
+#: View/CarCategories/admin_index.ctp:11;46
+#: View/CarCategories/admin_view.ctp:32;67 View/CarCategories/edit.ctp:14
+#: View/CarCategories/index.ctp:11;46 View/CarCategories/view.ctp:32;67
+#: View/CarStatuses/add.ctp:12 View/CarStatuses/admin_add.ctp:12
+#: View/CarStatuses/admin_edit.ctp:13 View/CarStatuses/admin_index.ctp:10;44
+#: View/CarStatuses/admin_view.ctp:27;62 View/CarStatuses/edit.ctp:13
+#: View/CarStatuses/index.ctp:10;44 View/CarStatuses/view.ctp:27;62
+#: View/CarTypes/add.ctp:12 View/CarTypes/admin_add.ctp:12
+#: View/CarTypes/admin_edit.ctp:13 View/CarTypes/admin_index.ctp:10;44
+#: View/CarTypes/admin_view.ctp:27;62 View/CarTypes/edit.ctp:13
+#: View/CarTypes/index.ctp:10;44 View/CarTypes/view.ctp:27;62
+#: View/Cars/add.ctp:29 View/Cars/admin_add.ctp:29
+#: View/Cars/admin_edit.ctp:30 View/Cars/admin_index.ctp:26;88
+#: View/Cars/admin_view.ctp:107;158 View/Cars/edit.ctp:30
+#: View/Cars/index.ctp:26;88 View/Cars/view.ctp:107;158
+#: View/CustomerCars/add.ctp:15 View/CustomerCars/admin_add.ctp:15
+#: View/CustomerCars/admin_edit.ctp:16
+#: View/CustomerCars/admin_index.ctp:13;54
+#: View/CustomerCars/admin_view.ctp:42 View/CustomerCars/edit.ctp:16
+#: View/CustomerCars/index.ctp:13;54 View/CustomerCars/view.ctp:42
+#: View/CustomerCategories/add.ctp:13
+#: View/CustomerCategories/admin_add.ctp:13
+#: View/CustomerCategories/admin_edit.ctp:14
+#: View/CustomerCategories/admin_index.ctp:11;46
+#: View/CustomerCategories/admin_view.ctp:32;71
+#: View/CustomerCategories/edit.ctp:14
+#: View/CustomerCategories/index.ctp:11;46
+#: View/CustomerCategories/view.ctp:32;71 View/Customers/add.ctp:32
+#: View/Customers/admin_add.ctp:32 View/Customers/admin_edit.ctp:33
+#: View/Customers/admin_index.ctp:30;88 View/Customers/admin_view.ctp:127;153
+#: View/Customers/edit.ctp:33 View/Customers/index.ctp:30;88
+#: View/Customers/view.ctp:127;153 View/EventTypes/add.ctp:13
+#: View/EventTypes/admin_add.ctp:13 View/EventTypes/admin_edit.ctp:14
+#: View/EventTypes/admin_index.ctp:11;46 View/EventTypes/admin_view.ctp:32;61
+#: View/EventTypes/edit.ctp:14 View/EventTypes/index.ctp:11;46
+#: View/EventTypes/view.ctp:32;61 View/Events/add.ctp:22
+#: View/Events/admin_add.ctp:22 View/Events/admin_edit.ctp:23
+#: View/Events/admin_index.ctp:20;70 View/Events/admin_view.ctp:77
+#: View/Events/edit.ctp:23 View/Events/index.ctp:20;70
+#: View/Events/view.ctp:77 View/Fuels/add.ctp:12 View/Fuels/admin_add.ctp:12
+#: View/Fuels/admin_edit.ctp:13 View/Fuels/admin_index.ctp:10;44
+#: View/Fuels/admin_view.ctp:27;62 View/Fuels/edit.ctp:13
+#: View/Fuels/index.ctp:10;44 View/Fuels/view.ctp:27;62
+#: View/InterferingTypes/add.ctp:12 View/InterferingTypes/admin_add.ctp:12
+#: View/InterferingTypes/admin_edit.ctp:13
+#: View/InterferingTypes/admin_index.ctp:10;44
+#: View/InterferingTypes/admin_view.ctp:27;49
+#: View/InterferingTypes/edit.ctp:13 View/InterferingTypes/index.ctp:10;44
+#: View/InterferingTypes/view.ctp:27;49 View/Interferings/add.ctp:15
+#: View/Interferings/admin_add.ctp:15 View/Interferings/admin_edit.ctp:16
+#: View/Interferings/admin_index.ctp:13;52
+#: View/Interferings/admin_view.ctp:42;73 View/Interferings/edit.ctp:16
+#: View/Interferings/index.ctp:13;52 View/Interferings/view.ctp:42;73
+#: View/Marks/add.ctp:12 View/Marks/admin_add.ctp:12
+#: View/Marks/admin_edit.ctp:13 View/Marks/admin_index.ctp:10;44
+#: View/Marks/admin_view.ctp:27;62 View/Marks/edit.ctp:13
+#: View/Marks/index.ctp:10;44 View/Marks/view.ctp:27;62
+#: View/Parameters/add.ctp:13 View/Parameters/admin_add.ctp:13
+#: View/Parameters/admin_edit.ctp:14 View/Parameters/admin_index.ctp:11;46
+#: View/Parameters/admin_view.ctp:32 View/Parameters/edit.ctp:14
+#: View/Parameters/index.ctp:11;46 View/Parameters/view.ctp:32
+#: View/Users/add.ctp:16 View/Users/admin_add.ctp:16
+#: View/Users/admin_edit.ctp:17 View/Users/admin_index.ctp:14;52
+#: View/Users/admin_view.ctp:47;86;155;218 View/Users/edit.ctp:17
+#: View/Users/index.ctp:14;52 View/Users/view.ctp:47;86;155;218
+msgid "Actions"
+msgstr ""
+
+#: View/CarCategories/add.ctp:16 View/CarCategories/admin_add.ctp:16
+#: View/CarCategories/admin_edit.ctp:18 View/CarCategories/admin_view.ctp:36
+#: View/CarCategories/edit.ctp:18 View/CarCategories/view.ctp:36
+#: View/Cars/add.ctp:41 View/Cars/admin_add.ctp:41
+#: View/Cars/admin_edit.ctp:43 View/Cars/admin_index.ctp:99
+#: View/Cars/admin_view.ctp:121 View/Cars/edit.ctp:43 View/Cars/index.ctp:99
+#: View/Cars/view.ctp:121
+msgid "List Car Categories"
+msgstr ""
+
+#: View/CarCategories/add.ctp:17 View/CarCategories/admin_add.ctp:17
+#: View/CarCategories/admin_edit.ctp:19 View/CarCategories/admin_index.ctp:49
+#: View/CarCategories/admin_view.ctp:38 View/CarCategories/edit.ctp:19
+#: View/CarCategories/index.ctp:49 View/CarCategories/view.ctp:38
+#: View/CarStatuses/add.ctp:16 View/CarStatuses/admin_add.ctp:16
+#: View/CarStatuses/admin_edit.ctp:18 View/CarStatuses/admin_index.ctp:47
+#: View/CarStatuses/admin_view.ctp:33 View/CarStatuses/edit.ctp:18
+#: View/CarStatuses/index.ctp:47 View/CarStatuses/view.ctp:33
+#: View/CarTypes/add.ctp:16 View/CarTypes/admin_add.ctp:16
+#: View/CarTypes/admin_edit.ctp:18 View/CarTypes/admin_index.ctp:47
+#: View/CarTypes/admin_view.ctp:33 View/CarTypes/edit.ctp:18
+#: View/CarTypes/index.ctp:47 View/CarTypes/view.ctp:33 View/Cars/add.ctp:32
+#: View/Cars/admin_add.ctp:32 View/Cars/admin_edit.ctp:34
+#: View/Cars/admin_view.ctp:111 View/Cars/edit.ctp:34 View/Cars/view.ctp:111
+#: View/CustomerCars/add.ctp:19 View/CustomerCars/admin_add.ctp:19
+#: View/CustomerCars/admin_edit.ctp:21 View/CustomerCars/admin_index.ctp:57
+#: View/CustomerCars/admin_view.ctp:48 View/CustomerCars/edit.ctp:21
+#: View/CustomerCars/index.ctp:57 View/CustomerCars/view.ctp:48
+#: View/Fuels/add.ctp:16 View/Fuels/admin_add.ctp:16
+#: View/Fuels/admin_edit.ctp:18 View/Fuels/admin_index.ctp:47
+#: View/Fuels/admin_view.ctp:33 View/Fuels/edit.ctp:18
+#: View/Fuels/index.ctp:47 View/Fuels/view.ctp:33 View/Marks/add.ctp:16
+#: View/Marks/admin_add.ctp:16 View/Marks/admin_edit.ctp:18
+#: View/Marks/admin_index.ctp:47 View/Marks/admin_view.ctp:33
+#: View/Marks/edit.ctp:18 View/Marks/index.ctp:47 View/Marks/view.ctp:33
+#: View/Users/add.ctp:20 View/Users/admin_add.ctp:20
+#: View/Users/admin_edit.ctp:22 View/Users/admin_index.ctp:55
+#: View/Users/admin_view.ctp:53 View/Users/edit.ctp:22
+#: View/Users/index.ctp:55 View/Users/view.ctp:53
+msgid "List Cars"
+msgstr ""
+
+#: View/CarCategories/add.ctp:18 View/CarCategories/admin_add.ctp:18
+#: View/CarCategories/admin_edit.ctp:20 View/CarCategories/admin_index.ctp:50
+#: View/CarCategories/admin_view.ctp:39;103 View/CarCategories/edit.ctp:20
+#: View/CarCategories/index.ctp:50 View/CarCategories/view.ctp:39;103
+#: View/CarStatuses/add.ctp:17 View/CarStatuses/admin_add.ctp:17
+#: View/CarStatuses/admin_edit.ctp:19 View/CarStatuses/admin_index.ctp:48
+#: View/CarStatuses/admin_view.ctp:34;98 View/CarStatuses/edit.ctp:19
+#: View/CarStatuses/index.ctp:48 View/CarStatuses/view.ctp:34;98
+#: View/CarTypes/add.ctp:17 View/CarTypes/admin_add.ctp:17
+#: View/CarTypes/admin_edit.ctp:19 View/CarTypes/admin_index.ctp:48
+#: View/CarTypes/admin_view.ctp:34;98 View/CarTypes/edit.ctp:19
+#: View/CarTypes/index.ctp:48 View/CarTypes/view.ctp:34;98
+#: View/Cars/admin_index.ctp:90 View/Cars/admin_view.ctp:112
+#: View/Cars/index.ctp:90 View/Cars/view.ctp:112 View/CustomerCars/add.ctp:20
+#: View/CustomerCars/admin_add.ctp:20 View/CustomerCars/admin_edit.ctp:22
+#: View/CustomerCars/admin_index.ctp:58 View/CustomerCars/admin_view.ctp:49
+#: View/CustomerCars/edit.ctp:22 View/CustomerCars/index.ctp:58
+#: View/CustomerCars/view.ctp:49 View/Fuels/add.ctp:17
+#: View/Fuels/admin_add.ctp:17 View/Fuels/admin_edit.ctp:19
+#: View/Fuels/admin_index.ctp:48 View/Fuels/admin_view.ctp:34;98
+#: View/Fuels/edit.ctp:19 View/Fuels/index.ctp:48 View/Fuels/view.ctp:34;98
+#: View/Marks/add.ctp:17 View/Marks/admin_add.ctp:17
+#: View/Marks/admin_edit.ctp:19 View/Marks/admin_index.ctp:48
+#: View/Marks/admin_view.ctp:34;98 View/Marks/edit.ctp:19
+#: View/Marks/index.ctp:48 View/Marks/view.ctp:34;98 View/Users/add.ctp:21
+#: View/Users/admin_add.ctp:21 View/Users/admin_edit.ctp:23
+#: View/Users/admin_index.ctp:56 View/Users/admin_view.ctp:54;122
+#: View/Users/edit.ctp:23 View/Users/index.ctp:56 View/Users/view.ctp:54;122
+msgid "New Car"
+msgstr ""
+
+#: View/CarCategories/admin_add.ctp:4
+msgid "Admin Add Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_edit.ctp:4
+msgid "Admin Edit Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_edit.ctp:17 View/CarCategories/admin_index.ctp:25
+#: View/CarCategories/admin_view.ctp:94 View/CarCategories/edit.ctp:17
+#: View/CarCategories/index.ctp:25 View/CarCategories/view.ctp:94
+#: View/CarStatuses/admin_edit.ctp:16 View/CarStatuses/admin_index.ctp:23
+#: View/CarStatuses/admin_view.ctp:89 View/CarStatuses/edit.ctp:16
+#: View/CarStatuses/index.ctp:23 View/CarStatuses/view.ctp:89
+#: View/CarTypes/admin_edit.ctp:16 View/CarTypes/admin_index.ctp:23
+#: View/CarTypes/admin_view.ctp:89 View/CarTypes/edit.ctp:16
+#: View/CarTypes/index.ctp:23 View/CarTypes/view.ctp:89
+#: View/Cars/admin_edit.ctp:33 View/Cars/admin_index.ctp:67
+#: View/Cars/admin_view.ctp:189 View/Cars/edit.ctp:33 View/Cars/index.ctp:67
+#: View/Cars/view.ctp:189 View/CustomerCars/admin_edit.ctp:19
+#: View/CustomerCars/admin_index.ctp:33 View/CustomerCars/edit.ctp:19
+#: View/CustomerCars/index.ctp:33 View/CustomerCategories/admin_edit.ctp:17
+#: View/CustomerCategories/admin_index.ctp:25
+#: View/CustomerCategories/admin_view.ctp:102
+#: View/CustomerCategories/edit.ctp:17 View/CustomerCategories/index.ctp:25
+#: View/CustomerCategories/view.ctp:102 View/Customers/admin_edit.ctp:36
+#: View/Customers/admin_index.ctp:67 View/Customers/admin_view.ctp:167
+#: View/Customers/edit.ctp:36 View/Customers/index.ctp:67
+#: View/Customers/view.ctp:167 View/EventTypes/admin_edit.ctp:17
+#: View/EventTypes/admin_index.ctp:25 View/EventTypes/admin_view.ctp:82
+#: View/EventTypes/edit.ctp:17 View/EventTypes/index.ctp:25
+#: View/EventTypes/view.ctp:82 View/Events/admin_edit.ctp:26
+#: View/Events/admin_index.ctp:49 View/Events/edit.ctp:26
+#: View/Events/index.ctp:49 View/Fuels/admin_edit.ctp:16
+#: View/Fuels/admin_index.ctp:23 View/Fuels/admin_view.ctp:89
+#: View/Fuels/edit.ctp:16 View/Fuels/index.ctp:23 View/Fuels/view.ctp:89
+#: View/InterferingTypes/admin_edit.ctp:16
+#: View/InterferingTypes/admin_index.ctp:23
+#: View/InterferingTypes/admin_view.ctp:63 View/InterferingTypes/edit.ctp:16
+#: View/InterferingTypes/index.ctp:23 View/InterferingTypes/view.ctp:63
+#: View/Interferings/admin_edit.ctp:19 View/Interferings/admin_index.ctp:31
+#: View/Interferings/admin_view.ctp:94 View/Interferings/edit.ctp:19
+#: View/Interferings/index.ctp:31 View/Interferings/view.ctp:94
+#: View/Marks/admin_edit.ctp:16 View/Marks/admin_index.ctp:23
+#: View/Marks/admin_view.ctp:89 View/Marks/edit.ctp:16
+#: View/Marks/index.ctp:23 View/Marks/view.ctp:89
+#: View/Parameters/admin_edit.ctp:17 View/Parameters/admin_index.ctp:25
+#: View/Parameters/edit.ctp:17 View/Parameters/index.ctp:25
+#: View/Users/admin_edit.ctp:20 View/Users/admin_index.ctp:31
+#: View/Users/admin_view.ctp:113;186;239 View/Users/edit.ctp:20
+#: View/Users/index.ctp:31 View/Users/view.ctp:113;186;239
+msgid "Delete"
+msgstr ""
+
+#: View/CarCategories/admin_edit.ctp:17 View/CarCategories/admin_index.ctp:25
+#: View/CarCategories/admin_view.ctp:35;94 View/CarCategories/edit.ctp:17
+#: View/CarCategories/index.ctp:25 View/CarCategories/view.ctp:35;94
+#: View/CarStatuses/admin_edit.ctp:16 View/CarStatuses/admin_index.ctp:23
+#: View/CarStatuses/admin_view.ctp:30;89 View/CarStatuses/edit.ctp:16
+#: View/CarStatuses/index.ctp:23 View/CarStatuses/view.ctp:30;89
+#: View/CarTypes/admin_edit.ctp:16 View/CarTypes/admin_index.ctp:23
+#: View/CarTypes/admin_view.ctp:30;89 View/CarTypes/edit.ctp:16
+#: View/CarTypes/index.ctp:23 View/CarTypes/view.ctp:30;89
+#: View/Cars/admin_edit.ctp:33 View/Cars/admin_index.ctp:67
+#: View/Cars/admin_view.ctp:110;189 View/Cars/edit.ctp:33
+#: View/Cars/index.ctp:67 View/Cars/view.ctp:110;189
+#: View/CustomerCars/admin_edit.ctp:19 View/CustomerCars/admin_index.ctp:33
+#: View/CustomerCars/admin_view.ctp:45 View/CustomerCars/edit.ctp:19
+#: View/CustomerCars/index.ctp:33 View/CustomerCars/view.ctp:45
+#: View/CustomerCategories/admin_edit.ctp:17
+#: View/CustomerCategories/admin_index.ctp:25
+#: View/CustomerCategories/admin_view.ctp:35;102
+#: View/CustomerCategories/edit.ctp:17 View/CustomerCategories/index.ctp:25
+#: View/CustomerCategories/view.ctp:35;102 View/Customers/admin_edit.ctp:36
+#: View/Customers/admin_index.ctp:67 View/Customers/admin_view.ctp:130;167
+#: View/Customers/edit.ctp:36 View/Customers/index.ctp:67
+#: View/Customers/view.ctp:130;167 View/EventTypes/admin_edit.ctp:17
+#: View/EventTypes/admin_index.ctp:25 View/EventTypes/admin_view.ctp:35;82
+#: View/EventTypes/edit.ctp:17 View/EventTypes/index.ctp:25
+#: View/EventTypes/view.ctp:35;82 View/Events/admin_edit.ctp:26
+#: View/Events/admin_index.ctp:49 View/Events/admin_view.ctp:80
+#: View/Events/edit.ctp:26 View/Events/index.ctp:49 View/Events/view.ctp:80
+#: View/Fuels/admin_edit.ctp:16 View/Fuels/admin_index.ctp:23
+#: View/Fuels/admin_view.ctp:30;89 View/Fuels/edit.ctp:16
+#: View/Fuels/index.ctp:23 View/Fuels/view.ctp:30;89
+#: View/InterferingTypes/admin_edit.ctp:16
+#: View/InterferingTypes/admin_index.ctp:23
+#: View/InterferingTypes/admin_view.ctp:30;63
+#: View/InterferingTypes/edit.ctp:16 View/InterferingTypes/index.ctp:23
+#: View/InterferingTypes/view.ctp:30;63 View/Interferings/admin_edit.ctp:19
+#: View/Interferings/admin_index.ctp:31
+#: View/Interferings/admin_view.ctp:45;94 View/Interferings/edit.ctp:19
+#: View/Interferings/index.ctp:31 View/Interferings/view.ctp:45;94
+#: View/Marks/admin_edit.ctp:16 View/Marks/admin_index.ctp:23
+#: View/Marks/admin_view.ctp:30;89 View/Marks/edit.ctp:16
+#: View/Marks/index.ctp:23 View/Marks/view.ctp:30;89
+#: View/Parameters/admin_edit.ctp:17 View/Parameters/admin_index.ctp:25
+#: View/Parameters/admin_view.ctp:35 View/Parameters/edit.ctp:17
+#: View/Parameters/index.ctp:25 View/Parameters/view.ctp:35
+#: View/Users/admin_edit.ctp:20 View/Users/admin_index.ctp:31
+#: View/Users/admin_view.ctp:50;113;186;239 View/Users/edit.ctp:20
+#: View/Users/index.ctp:31 View/Users/view.ctp:50;113;186;239
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:2 View/CarCategories/index.ctp:2
+msgid "Car Categories"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:23 View/CarCategories/admin_view.ctp:92
+#: View/CarCategories/index.ctp:23 View/CarCategories/view.ctp:92
+#: View/CarStatuses/admin_index.ctp:21 View/CarStatuses/admin_view.ctp:87
+#: View/CarStatuses/index.ctp:21 View/CarStatuses/view.ctp:87
+#: View/CarTypes/admin_index.ctp:21 View/CarTypes/admin_view.ctp:87
+#: View/CarTypes/index.ctp:21 View/CarTypes/view.ctp:87
+#: View/Cars/admin_index.ctp:65 View/Cars/admin_view.ctp:187
+#: View/Cars/index.ctp:65 View/Cars/view.ctp:187
+#: View/CustomerCars/admin_index.ctp:31 View/CustomerCars/index.ctp:31
+#: View/CustomerCategories/admin_index.ctp:23
+#: View/CustomerCategories/admin_view.ctp:100
+#: View/CustomerCategories/index.ctp:23 View/CustomerCategories/view.ctp:100
+#: View/Customers/admin_index.ctp:65 View/Customers/admin_view.ctp:165
+#: View/Customers/index.ctp:65 View/Customers/view.ctp:165
+#: View/EventTypes/admin_index.ctp:23 View/EventTypes/admin_view.ctp:80
+#: View/EventTypes/index.ctp:23 View/EventTypes/view.ctp:80
+#: View/Events/admin_index.ctp:47 View/Events/index.ctp:47
+#: View/Fuels/admin_index.ctp:21 View/Fuels/admin_view.ctp:87
+#: View/Fuels/index.ctp:21 View/Fuels/view.ctp:87
+#: View/InterferingTypes/admin_index.ctp:21
+#: View/InterferingTypes/admin_view.ctp:61 View/InterferingTypes/index.ctp:21
+#: View/InterferingTypes/view.ctp:61 View/Interferings/admin_index.ctp:29
+#: View/Interferings/admin_view.ctp:92 View/Interferings/index.ctp:29
+#: View/Interferings/view.ctp:92 View/Marks/admin_index.ctp:21
+#: View/Marks/admin_view.ctp:87 View/Marks/index.ctp:21
+#: View/Marks/view.ctp:87 View/Parameters/admin_index.ctp:23
+#: View/Parameters/index.ctp:23 View/Users/admin_index.ctp:29
+#: View/Users/admin_view.ctp:111;184;237 View/Users/index.ctp:29
+#: View/Users/view.ctp:111;184;237
+msgid "View"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:24 View/CarCategories/admin_view.ctp:93
+#: View/CarCategories/index.ctp:24 View/CarCategories/view.ctp:93
+#: View/CarStatuses/admin_index.ctp:22 View/CarStatuses/admin_view.ctp:88
+#: View/CarStatuses/index.ctp:22 View/CarStatuses/view.ctp:88
+#: View/CarTypes/admin_index.ctp:22 View/CarTypes/admin_view.ctp:88
+#: View/CarTypes/index.ctp:22 View/CarTypes/view.ctp:88
+#: View/Cars/admin_index.ctp:66 View/Cars/admin_view.ctp:188
+#: View/Cars/index.ctp:66 View/Cars/view.ctp:188
+#: View/CustomerCars/admin_index.ctp:32 View/CustomerCars/index.ctp:32
+#: View/CustomerCategories/admin_index.ctp:24
+#: View/CustomerCategories/admin_view.ctp:101
+#: View/CustomerCategories/index.ctp:24 View/CustomerCategories/view.ctp:101
+#: View/Customers/admin_index.ctp:66 View/Customers/admin_view.ctp:166
+#: View/Customers/index.ctp:66 View/Customers/view.ctp:166
+#: View/EventTypes/admin_index.ctp:24 View/EventTypes/admin_view.ctp:81
+#: View/EventTypes/index.ctp:24 View/EventTypes/view.ctp:81
+#: View/Events/admin_index.ctp:48 View/Events/index.ctp:48
+#: View/Fuels/admin_index.ctp:22 View/Fuels/admin_view.ctp:88
+#: View/Fuels/index.ctp:22 View/Fuels/view.ctp:88
+#: View/InterferingTypes/admin_index.ctp:22
+#: View/InterferingTypes/admin_view.ctp:62 View/InterferingTypes/index.ctp:22
+#: View/InterferingTypes/view.ctp:62 View/Interferings/admin_index.ctp:30
+#: View/Interferings/admin_view.ctp:93 View/Interferings/index.ctp:30
+#: View/Interferings/view.ctp:93 View/Marks/admin_index.ctp:22
+#: View/Marks/admin_view.ctp:88 View/Marks/index.ctp:22
+#: View/Marks/view.ctp:88 View/Parameters/admin_index.ctp:24
+#: View/Parameters/index.ctp:24 View/Users/admin_index.ctp:30
+#: View/Users/admin_view.ctp:112;185;238 View/Users/index.ctp:30
+#: View/Users/view.ctp:112;185;238
+msgid "Edit"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:34 View/CarCategories/index.ctp:34
+#: View/CarStatuses/admin_index.ctp:32 View/CarStatuses/index.ctp:32
+#: View/CarTypes/admin_index.ctp:32 View/CarTypes/index.ctp:32
+#: View/Cars/admin_index.ctp:76 View/Cars/index.ctp:76
+#: View/CustomerCars/admin_index.ctp:42 View/CustomerCars/index.ctp:42
+#: View/CustomerCategories/admin_index.ctp:34
+#: View/CustomerCategories/index.ctp:34 View/Customers/admin_index.ctp:76
+#: View/Customers/index.ctp:76 View/EventTypes/admin_index.ctp:34
+#: View/EventTypes/index.ctp:34 View/Events/admin_index.ctp:58
+#: View/Events/index.ctp:58 View/Fuels/admin_index.ctp:32
+#: View/Fuels/index.ctp:32 View/InterferingTypes/admin_index.ctp:32
+#: View/InterferingTypes/index.ctp:32 View/Interferings/admin_index.ctp:40
+#: View/Interferings/index.ctp:40 View/Marks/admin_index.ctp:32
+#: View/Marks/index.ctp:32 View/Parameters/admin_index.ctp:34
+#: View/Parameters/index.ctp:34 View/Users/admin_index.ctp:40
+#: View/Users/index.ctp:40
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:39 View/CarCategories/index.ctp:39
+#: View/CarStatuses/admin_index.ctp:37 View/CarStatuses/index.ctp:37
+#: View/CarTypes/admin_index.ctp:37 View/CarTypes/index.ctp:37
+#: View/Cars/admin_index.ctp:81 View/Cars/index.ctp:81
+#: View/CustomerCars/admin_index.ctp:47 View/CustomerCars/index.ctp:47
+#: View/CustomerCategories/admin_index.ctp:39
+#: View/CustomerCategories/index.ctp:39 View/Customers/admin_index.ctp:81
+#: View/Customers/index.ctp:81 View/EventTypes/admin_index.ctp:39
+#: View/EventTypes/index.ctp:39 View/Events/admin_index.ctp:63
+#: View/Events/index.ctp:63 View/Fuels/admin_index.ctp:37
+#: View/Fuels/index.ctp:37 View/InterferingTypes/admin_index.ctp:37
+#: View/InterferingTypes/index.ctp:37 View/Interferings/admin_index.ctp:45
+#: View/Interferings/index.ctp:45 View/Marks/admin_index.ctp:37
+#: View/Marks/index.ctp:37 View/Parameters/admin_index.ctp:39
+#: View/Parameters/index.ctp:39 View/Users/admin_index.ctp:45
+#: View/Users/index.ctp:45
+msgid "previous"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:41 View/CarCategories/index.ctp:41
+#: View/CarStatuses/admin_index.ctp:39 View/CarStatuses/index.ctp:39
+#: View/CarTypes/admin_index.ctp:39 View/CarTypes/index.ctp:39
+#: View/Cars/admin_index.ctp:83 View/Cars/index.ctp:83
+#: View/CustomerCars/admin_index.ctp:49 View/CustomerCars/index.ctp:49
+#: View/CustomerCategories/admin_index.ctp:41
+#: View/CustomerCategories/index.ctp:41 View/Customers/admin_index.ctp:83
+#: View/Customers/index.ctp:83 View/EventTypes/admin_index.ctp:41
+#: View/EventTypes/index.ctp:41 View/Events/admin_index.ctp:65
+#: View/Events/index.ctp:65 View/Fuels/admin_index.ctp:39
+#: View/Fuels/index.ctp:39 View/InterferingTypes/admin_index.ctp:39
+#: View/InterferingTypes/index.ctp:39 View/Interferings/admin_index.ctp:47
+#: View/Interferings/index.ctp:47 View/Marks/admin_index.ctp:39
+#: View/Marks/index.ctp:39 View/Parameters/admin_index.ctp:41
+#: View/Parameters/index.ctp:41 View/Users/admin_index.ctp:47
+#: View/Users/index.ctp:47
+msgid "next"
+msgstr ""
+
+#: View/CarCategories/admin_index.ctp:48 View/CarCategories/admin_view.ctp:37
+#: View/CarCategories/index.ctp:48 View/CarCategories/view.ctp:37
+#: View/Cars/add.ctp:42 View/Cars/admin_add.ctp:42
+#: View/Cars/admin_edit.ctp:44 View/Cars/admin_index.ctp:100
+#: View/Cars/admin_view.ctp:122 View/Cars/edit.ctp:44 View/Cars/index.ctp:100
+#: View/Cars/view.ctp:122
+msgid "New Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:2 View/CarCategories/view.ctp:2
+#: View/Cars/admin_view.ctp:94 View/Cars/view.ctp:94
+msgid "Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:4;47 View/CarCategories/view.ctp:4;47
+#: View/CarStatuses/admin_view.ctp:4;42 View/CarStatuses/view.ctp:4;42
+#: View/CarTypes/admin_view.ctp:4;42 View/CarTypes/view.ctp:4;42
+#: View/Cars/admin_view.ctp:4;134 View/Cars/view.ctp:4;134
+#: View/CustomerCars/admin_view.ctp:4 View/CustomerCars/view.ctp:4
+#: View/CustomerCategories/admin_view.ctp:4;47
+#: View/CustomerCategories/view.ctp:4;47 View/Customers/admin_view.ctp:4;146
+#: View/Customers/view.ctp:4;146 View/EventTypes/admin_view.ctp:4;47
+#: View/EventTypes/view.ctp:4;47 View/Events/admin_view.ctp:4
+#: View/Events/view.ctp:4 View/Fuels/admin_view.ctp:4;42
+#: View/Fuels/view.ctp:4;42 View/InterferingTypes/admin_view.ctp:4;42
+#: View/InterferingTypes/view.ctp:4;42 View/Interferings/admin_view.ctp:4;59
+#: View/Interferings/view.ctp:4;59 View/Marks/admin_view.ctp:4;42
+#: View/Marks/view.ctp:4;42 View/Parameters/admin_view.ctp:4
+#: View/Parameters/view.ctp:4 View/Users/admin_view.ctp:4;66;131;204
+#: View/Users/view.ctp:4;66;131;204
+msgid "Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:9 View/CarCategories/view.ctp:9
+#: View/CarStatuses/admin_view.ctp:9 View/CarStatuses/view.ctp:9
+#: View/CarTypes/admin_view.ctp:9 View/CarTypes/view.ctp:9
+#: View/CustomerCategories/admin_view.ctp:9
+#: View/CustomerCategories/view.ctp:9 View/EventTypes/admin_view.ctp:9
+#: View/EventTypes/view.ctp:9 View/Fuels/admin_view.ctp:9
+#: View/Fuels/view.ctp:9 View/InterferingTypes/admin_view.ctp:9;43
+#: View/InterferingTypes/view.ctp:9;43 View/Interferings/admin_view.ctp:9
+#: View/Interferings/view.ctp:9 View/Marks/admin_view.ctp:9
+#: View/Marks/view.ctp:9 View/Parameters/admin_view.ctp:9
+#: View/Parameters/view.ctp:9
+msgid "Name"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:14 View/CarCategories/view.ctp:14
+msgid "Price"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:19;59 View/CarCategories/view.ctp:19;59
+#: View/CarStatuses/admin_view.ctp:14;54 View/CarStatuses/view.ctp:14;54
+#: View/CarTypes/admin_view.ctp:14;54 View/CarTypes/view.ctp:14;54
+#: View/Cars/admin_view.ctp:64;154 View/Cars/view.ctp:64;154
+#: View/CustomerCars/admin_view.ctp:29 View/CustomerCars/view.ctp:29
+#: View/CustomerCategories/admin_view.ctp:19;67
+#: View/CustomerCategories/view.ctp:19;67
+#: View/Customers/admin_view.ctp:104;151 View/Customers/view.ctp:104;151
+#: View/EventTypes/admin_view.ctp:19;56 View/EventTypes/view.ctp:19;56
+#: View/Events/admin_view.ctp:49 View/Events/view.ctp:49
+#: View/Fuels/admin_view.ctp:14;54 View/Fuels/view.ctp:14;54
+#: View/InterferingTypes/admin_view.ctp:14;46
+#: View/InterferingTypes/view.ctp:14;46
+#: View/Interferings/admin_view.ctp:24;68 View/Interferings/view.ctp:24;68
+#: View/Marks/admin_view.ctp:14;54 View/Marks/view.ctp:14;54
+#: View/Parameters/admin_view.ctp:19 View/Parameters/view.ctp:19
+#: View/Users/admin_view.ctp:34;78;151;213 View/Users/view.ctp:34;78;151;213
+msgid "Created"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:24;60 View/CarCategories/view.ctp:24;60
+#: View/CarStatuses/admin_view.ctp:19;55 View/CarStatuses/view.ctp:19;55
+#: View/CarTypes/admin_view.ctp:19;55 View/CarTypes/view.ctp:19;55
+#: View/Cars/admin_view.ctp:69;155 View/Cars/view.ctp:69;155
+#: View/CustomerCars/admin_view.ctp:34 View/CustomerCars/view.ctp:34
+#: View/CustomerCategories/admin_view.ctp:24;68
+#: View/CustomerCategories/view.ctp:24;68
+#: View/Customers/admin_view.ctp:109;152 View/Customers/view.ctp:109;152
+#: View/EventTypes/admin_view.ctp:24;57 View/EventTypes/view.ctp:24;57
+#: View/Events/admin_view.ctp:54 View/Events/view.ctp:54
+#: View/Fuels/admin_view.ctp:19;55 View/Fuels/view.ctp:19;55
+#: View/InterferingTypes/admin_view.ctp:19;47
+#: View/InterferingTypes/view.ctp:19;47
+#: View/Interferings/admin_view.ctp:29;69 View/Interferings/view.ctp:29;69
+#: View/Marks/admin_view.ctp:19;55 View/Marks/view.ctp:19;55
+#: View/Parameters/admin_view.ctp:24 View/Parameters/view.ctp:24
+#: View/Users/admin_view.ctp:39;79;152;214 View/Users/view.ctp:39;79;152;214
+msgid "Modified"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:34 View/CarCategories/edit.ctp:4
+#: View/CarCategories/view.ctp:34
+msgid "Edit Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:35 View/CarCategories/view.ctp:35
+msgid "Delete Car Category"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:43 View/CarCategories/view.ctp:43
+#: View/CarStatuses/admin_view.ctp:38 View/CarStatuses/view.ctp:38
+#: View/CarTypes/admin_view.ctp:38 View/CarTypes/view.ctp:38
+#: View/Fuels/admin_view.ctp:38 View/Fuels/view.ctp:38
+#: View/Marks/admin_view.ctp:38 View/Marks/view.ctp:38
+#: View/Users/admin_view.ctp:62 View/Users/view.ctp:62
+msgid "Related Cars"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:48 View/CarCategories/view.ctp:48
+#: View/CarStatuses/admin_view.ctp:43 View/CarStatuses/view.ctp:43
+#: View/CarTypes/admin_view.ctp:43 View/CarTypes/view.ctp:43
+#: View/Cars/admin_view.ctp:9;135 View/Cars/view.ctp:9;135
+#: View/CustomerCategories/admin_view.ctp:48
+#: View/CustomerCategories/view.ctp:48 View/Customers/admin_view.ctp:9
+#: View/Customers/view.ctp:9 View/Fuels/admin_view.ctp:43
+#: View/Fuels/view.ctp:43 View/Marks/admin_view.ctp:43 View/Marks/view.ctp:43
+#: View/Users/admin_view.ctp:67;132 View/Users/view.ctp:67;132
+msgid "Code"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:49 View/CarCategories/view.ctp:49
+#: View/CarStatuses/admin_view.ctp:44 View/CarStatuses/view.ctp:44
+#: View/CarTypes/admin_view.ctp:44 View/CarTypes/view.ctp:44
+#: View/Cars/admin_view.ctp:14 View/Cars/view.ctp:14
+#: View/Fuels/admin_view.ctp:44 View/Fuels/view.ctp:44
+#: View/Marks/admin_view.ctp:44 View/Marks/view.ctp:44
+#: View/Users/admin_view.ctp:68 View/Users/view.ctp:68
+msgid "Model"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:50 View/CarCategories/view.ctp:50
+#: View/CarStatuses/admin_view.ctp:45 View/CarStatuses/view.ctp:45
+#: View/CarTypes/admin_view.ctp:45 View/CarTypes/view.ctp:45
+#: View/Cars/admin_view.ctp:19 View/Cars/view.ctp:19
+#: View/Fuels/admin_view.ctp:45 View/Fuels/view.ctp:45
+#: View/Marks/admin_view.ctp:45 View/Marks/view.ctp:45
+#: View/Users/admin_view.ctp:69 View/Users/view.ctp:69
+msgid "Nbplace"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:51 View/CarCategories/view.ctp:51
+#: View/CarStatuses/admin_view.ctp:46 View/CarStatuses/view.ctp:46
+#: View/CarTypes/admin_view.ctp:46 View/CarTypes/view.ctp:46
+#: View/Cars/admin_view.ctp:24 View/Cars/view.ctp:24
+#: View/Fuels/admin_view.ctp:46 View/Fuels/view.ctp:46
+#: View/Marks/admin_view.ctp:46 View/Marks/view.ctp:46
+#: View/Users/admin_view.ctp:70 View/Users/view.ctp:70
+msgid "Immatr Prov"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:52 View/CarCategories/view.ctp:52
+#: View/CarStatuses/admin_view.ctp:47 View/CarStatuses/view.ctp:47
+#: View/CarTypes/admin_view.ctp:47 View/CarTypes/view.ctp:47
+#: View/Cars/admin_view.ctp:29 View/Cars/view.ctp:29
+#: View/Fuels/admin_view.ctp:47 View/Fuels/view.ctp:47
+#: View/Marks/admin_view.ctp:47 View/Marks/view.ctp:47
+#: View/Users/admin_view.ctp:71 View/Users/view.ctp:71
+msgid "Immatr Def"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:53 View/CarCategories/view.ctp:53
+#: View/CarStatuses/admin_view.ctp:48 View/CarStatuses/view.ctp:48
+#: View/CarTypes/admin_view.ctp:48 View/CarTypes/view.ctp:48
+#: View/Cars/admin_view.ctp:34 View/Cars/view.ctp:34
+#: View/Fuels/admin_view.ctp:48 View/Fuels/view.ctp:48
+#: View/Marks/admin_view.ctp:48 View/Marks/view.ctp:48
+#: View/Users/admin_view.ctp:72 View/Users/view.ctp:72
+msgid "Chassis"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:54 View/CarCategories/view.ctp:54
+#: View/CarStatuses/admin_view.ctp:49 View/CarStatuses/view.ctp:49
+#: View/CarTypes/admin_view.ctp:49 View/CarTypes/view.ctp:49
+#: View/Cars/admin_view.ctp:39 View/Cars/view.ctp:39
+#: View/Fuels/admin_view.ctp:49 View/Fuels/view.ctp:49
+#: View/Marks/admin_view.ctp:49 View/Marks/view.ctp:49
+#: View/Users/admin_view.ctp:73 View/Users/view.ctp:73
+msgid "Color"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:55 View/CarCategories/view.ctp:55
+#: View/CarStatuses/admin_view.ctp:50 View/CarStatuses/view.ctp:50
+#: View/CarTypes/admin_view.ctp:50 View/CarTypes/view.ctp:50
+#: View/Cars/admin_view.ctp:44 View/Cars/view.ctp:44
+#: View/Fuels/admin_view.ctp:50 View/Fuels/view.ctp:50
+#: View/Marks/admin_view.ctp:50 View/Marks/view.ctp:50
+#: View/Users/admin_view.ctp:74 View/Users/view.ctp:74
+msgid "Circulation Date"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:56 View/CarCategories/view.ctp:56
+#: View/CarStatuses/admin_view.ctp:51 View/CarStatuses/view.ctp:51
+#: View/CarTypes/admin_view.ctp:51 View/CarTypes/view.ctp:51
+#: View/Cars/admin_view.ctp:49 View/Cars/view.ctp:49
+#: View/Fuels/admin_view.ctp:51 View/Fuels/view.ctp:51
+#: View/Marks/admin_view.ctp:51 View/Marks/view.ctp:51
+#: View/Users/admin_view.ctp:75 View/Users/view.ctp:75
+msgid "Date Approval"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:57 View/CarCategories/view.ctp:57
+#: View/CarStatuses/admin_view.ctp:52 View/CarStatuses/view.ctp:52
+#: View/CarTypes/admin_view.ctp:52 View/CarTypes/view.ctp:52
+#: View/Cars/admin_view.ctp:54 View/Cars/view.ctp:54
+#: View/Fuels/admin_view.ctp:52 View/Fuels/view.ctp:52
+#: View/Marks/admin_view.ctp:52 View/Marks/view.ctp:52
+#: View/Users/admin_view.ctp:76 View/Users/view.ctp:76
+msgid "Radio Code"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:58 View/CarCategories/view.ctp:58
+#: View/CarStatuses/admin_view.ctp:53 View/CarStatuses/view.ctp:53
+#: View/CarTypes/admin_view.ctp:53 View/CarTypes/view.ctp:53
+#: View/Cars/admin_view.ctp:59;152 View/Cars/view.ctp:59;152
+#: View/CustomerCategories/admin_view.ctp:65
+#: View/CustomerCategories/view.ctp:65 View/Customers/admin_view.ctp:94
+#: View/Customers/view.ctp:94 View/Fuels/admin_view.ctp:53
+#: View/Fuels/view.ctp:53 View/Marks/admin_view.ctp:53 View/Marks/view.ctp:53
+#: View/Users/admin_view.ctp:77;149 View/Users/view.ctp:77;149
+msgid "Note"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:61 View/CarCategories/view.ctp:61
+#: View/CarStatuses/admin_view.ctp:56 View/CarStatuses/view.ctp:56
+#: View/CarTypes/admin_view.ctp:56 View/CarTypes/view.ctp:56
+#: View/Fuels/admin_view.ctp:56 View/Fuels/view.ctp:56
+#: View/Marks/admin_view.ctp:56 View/Marks/view.ctp:56
+#: View/Users/admin_view.ctp:80 View/Users/view.ctp:80
+msgid "Car Status Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:62 View/CarCategories/view.ctp:62
+#: View/CarStatuses/admin_view.ctp:57 View/CarStatuses/view.ctp:57
+#: View/CarTypes/admin_view.ctp:57 View/CarTypes/view.ctp:57
+#: View/Fuels/admin_view.ctp:57 View/Fuels/view.ctp:57
+#: View/Marks/admin_view.ctp:57 View/Marks/view.ctp:57
+#: View/Users/admin_view.ctp:81 View/Users/view.ctp:81
+msgid "Mark Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:63 View/CarCategories/view.ctp:63
+#: View/CarStatuses/admin_view.ctp:58 View/CarStatuses/view.ctp:58
+#: View/CarTypes/admin_view.ctp:58 View/CarTypes/view.ctp:58
+#: View/Fuels/admin_view.ctp:58 View/Fuels/view.ctp:58
+#: View/Marks/admin_view.ctp:58 View/Marks/view.ctp:58
+#: View/Users/admin_view.ctp:82 View/Users/view.ctp:82
+msgid "Car Type Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:64 View/CarCategories/view.ctp:64
+#: View/CarStatuses/admin_view.ctp:59 View/CarStatuses/view.ctp:59
+#: View/CarTypes/admin_view.ctp:59 View/CarTypes/view.ctp:59
+#: View/Cars/admin_view.ctp:156 View/Cars/view.ctp:156
+#: View/CustomerCategories/admin_view.ctp:69
+#: View/CustomerCategories/view.ctp:69 View/EventTypes/admin_view.ctp:58
+#: View/EventTypes/view.ctp:58 View/Fuels/admin_view.ctp:59
+#: View/Fuels/view.ctp:59 View/Interferings/admin_view.ctp:70
+#: View/Interferings/view.ctp:70 View/Marks/admin_view.ctp:59
+#: View/Marks/view.ctp:59 View/Users/admin_view.ctp:83;153;215
+#: View/Users/view.ctp:83;153;215
+msgid "User Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:65 View/CarCategories/view.ctp:65
+#: View/CarStatuses/admin_view.ctp:60 View/CarStatuses/view.ctp:60
+#: View/CarTypes/admin_view.ctp:60 View/CarTypes/view.ctp:60
+#: View/Fuels/admin_view.ctp:60 View/Fuels/view.ctp:60
+#: View/Marks/admin_view.ctp:60 View/Marks/view.ctp:60
+#: View/Users/admin_view.ctp:84 View/Users/view.ctp:84
+msgid "Car Category Id"
+msgstr ""
+
+#: View/CarCategories/admin_view.ctp:66 View/CarCategories/view.ctp:66
+#: View/CarStatuses/admin_view.ctp:61 View/CarStatuses/view.ctp:61
+#: View/CarTypes/admin_view.ctp:61 View/CarTypes/view.ctp:61
+#: View/Fuels/admin_view.ctp:61 View/Fuels/view.ctp:61
+#: View/Marks/admin_view.ctp:61 View/Marks/view.ctp:61
+#: View/Users/admin_view.ctp:85 View/Users/view.ctp:85
+msgid "Fuel Id"
+msgstr ""
+
+#: View/CarStatuses/add.ctp:4
+msgid "Add Car Status"
+msgstr ""
+
+#: View/CarStatuses/add.ctp:15 View/CarStatuses/admin_add.ctp:15
+#: View/CarStatuses/admin_edit.ctp:17 View/CarStatuses/admin_view.ctp:31
+#: View/CarStatuses/edit.ctp:17 View/CarStatuses/view.ctp:31
+#: View/Cars/add.ctp:33 View/Cars/admin_add.ctp:33
+#: View/Cars/admin_edit.ctp:35 View/Cars/admin_index.ctp:91
+#: View/Cars/admin_view.ctp:113 View/Cars/edit.ctp:35 View/Cars/index.ctp:91
+#: View/Cars/view.ctp:113
+msgid "List Car Statuses"
+msgstr "List Car Status"
+
+#: View/CarStatuses/admin_add.ctp:4
+msgid "Admin Add Car Status"
+msgstr ""
+
+#: View/CarStatuses/admin_edit.ctp:4
+msgid "Admin Edit Car Status"
+msgstr ""
+
+#: View/CarStatuses/admin_index.ctp:2 View/CarStatuses/index.ctp:2
+msgid "Car Statuses"
+msgstr "Car Status"
+
+#: View/CarStatuses/admin_index.ctp:46 View/CarStatuses/admin_view.ctp:32
+#: View/CarStatuses/index.ctp:46 View/CarStatuses/view.ctp:32
+#: View/Cars/add.ctp:34 View/Cars/admin_add.ctp:34
+#: View/Cars/admin_edit.ctp:36 View/Cars/admin_index.ctp:92
+#: View/Cars/admin_view.ctp:114 View/Cars/edit.ctp:36 View/Cars/index.ctp:92
+#: View/Cars/view.ctp:114
+msgid "New Car Status"
+msgstr ""
+
+#: View/CarStatuses/admin_view.ctp:2 View/CarStatuses/view.ctp:2
+#: View/Cars/admin_view.ctp:74 View/Cars/view.ctp:74
+msgid "Car Status"
+msgstr ""
+
+#: View/CarStatuses/admin_view.ctp:29 View/CarStatuses/edit.ctp:4
+#: View/CarStatuses/view.ctp:29
+msgid "Edit Car Status"
+msgstr ""
+
+#: View/CarStatuses/admin_view.ctp:30 View/CarStatuses/view.ctp:30
+msgid "Delete Car Status"
+msgstr ""
+
+#: View/CarTypes/add.ctp:4
+msgid "Add Car Type"
+msgstr ""
+
+#: View/CarTypes/add.ctp:15 View/CarTypes/admin_add.ctp:15
+#: View/CarTypes/admin_edit.ctp:17 View/CarTypes/admin_view.ctp:31
+#: View/CarTypes/edit.ctp:17 View/CarTypes/view.ctp:31 View/Cars/add.ctp:37
+#: View/Cars/admin_add.ctp:37 View/Cars/admin_edit.ctp:39
+#: View/Cars/admin_index.ctp:95 View/Cars/admin_view.ctp:117
+#: View/Cars/edit.ctp:39 View/Cars/index.ctp:95 View/Cars/view.ctp:117
+msgid "List Car Types"
+msgstr ""
+
+#: View/CarTypes/admin_add.ctp:4
+msgid "Admin Add Car Type"
+msgstr ""
+
+#: View/CarTypes/admin_edit.ctp:4
+msgid "Admin Edit Car Type"
+msgstr ""
+
+#: View/CarTypes/admin_index.ctp:2 View/CarTypes/index.ctp:2
+msgid "Car Types"
+msgstr ""
+
+#: View/CarTypes/admin_index.ctp:46 View/CarTypes/admin_view.ctp:32
+#: View/CarTypes/index.ctp:46 View/CarTypes/view.ctp:32 View/Cars/add.ctp:38
+#: View/Cars/admin_add.ctp:38 View/Cars/admin_edit.ctp:40
+#: View/Cars/admin_index.ctp:96 View/Cars/admin_view.ctp:118
+#: View/Cars/edit.ctp:40 View/Cars/index.ctp:96 View/Cars/view.ctp:118
+msgid "New Car Type"
+msgstr ""
+
+#: View/CarTypes/admin_view.ctp:2 View/CarTypes/view.ctp:2
+#: View/Cars/admin_view.ctp:84 View/Cars/view.ctp:84
+msgid "Car Type"
+msgstr ""
+
+#: View/CarTypes/admin_view.ctp:29 View/CarTypes/edit.ctp:4
+#: View/CarTypes/view.ctp:29
+msgid "Edit Car Type"
+msgstr ""
+
+#: View/CarTypes/admin_view.ctp:30 View/CarTypes/view.ctp:30
+msgid "Delete Car Type"
+msgstr ""
+
+#: View/Cars/add.ctp:4
+msgid "Add Car"
+msgstr ""
+
+#: View/Cars/add.ctp:35 View/Cars/admin_add.ctp:35
+#: View/Cars/admin_edit.ctp:37 View/Cars/admin_index.ctp:93
+#: View/Cars/admin_view.ctp:115 View/Cars/edit.ctp:37 View/Cars/index.ctp:93
+#: View/Cars/view.ctp:115 View/Marks/add.ctp:15 View/Marks/admin_add.ctp:15
+#: View/Marks/admin_edit.ctp:17 View/Marks/admin_view.ctp:31
+#: View/Marks/edit.ctp:17 View/Marks/view.ctp:31
+msgid "List Marks"
+msgstr ""
+
+#: View/Cars/add.ctp:36 View/Cars/admin_add.ctp:36
+#: View/Cars/admin_edit.ctp:38 View/Cars/admin_index.ctp:94
+#: View/Cars/admin_view.ctp:116 View/Cars/edit.ctp:38 View/Cars/index.ctp:94
+#: View/Cars/view.ctp:116 View/Marks/admin_index.ctp:46
+#: View/Marks/admin_view.ctp:32 View/Marks/index.ctp:46
+#: View/Marks/view.ctp:32
+msgid "New Mark"
+msgstr ""
+
+#: View/Cars/add.ctp:39 View/Cars/admin_add.ctp:39
+#: View/Cars/admin_edit.ctp:41 View/Cars/admin_index.ctp:97
+#: View/Cars/admin_view.ctp:119 View/Cars/edit.ctp:41 View/Cars/index.ctp:97
+#: View/Cars/view.ctp:119 View/Customers/add.ctp:36
+#: View/Customers/admin_add.ctp:36 View/Customers/admin_edit.ctp:38
+#: View/Customers/admin_index.ctp:91 View/Customers/admin_view.ctp:133
+#: View/Customers/edit.ctp:38 View/Customers/index.ctp:91
+#: View/Customers/view.ctp:133 View/Events/add.ctp:26
+#: View/Events/admin_add.ctp:26 View/Events/admin_edit.ctp:28
+#: View/Events/admin_index.ctp:73 View/Events/admin_view.ctp:83
+#: View/Events/edit.ctp:28 View/Events/index.ctp:73 View/Events/view.ctp:83
+#: View/Users/add.ctp:19 View/Users/admin_add.ctp:19
+#: View/Users/admin_edit.ctp:21 View/Users/admin_view.ctp:51
+#: View/Users/edit.ctp:21 View/Users/view.ctp:51
+msgid "List Users"
+msgstr ""
+
+#: View/Cars/add.ctp:40 View/Cars/admin_add.ctp:40
+#: View/Cars/admin_edit.ctp:42 View/Cars/admin_index.ctp:98
+#: View/Cars/admin_view.ctp:120 View/Cars/edit.ctp:42 View/Cars/index.ctp:98
+#: View/Cars/view.ctp:120 View/Customers/add.ctp:37
+#: View/Customers/admin_add.ctp:37 View/Customers/admin_edit.ctp:39
+#: View/Customers/admin_index.ctp:92 View/Customers/admin_view.ctp:134
+#: View/Customers/edit.ctp:39 View/Customers/index.ctp:92
+#: View/Customers/view.ctp:134 View/Events/add.ctp:27
+#: View/Events/admin_add.ctp:27 View/Events/admin_edit.ctp:29
+#: View/Events/admin_index.ctp:74 View/Events/admin_view.ctp:84
+#: View/Events/edit.ctp:29 View/Events/index.ctp:74 View/Events/view.ctp:84
+#: View/Users/admin_index.ctp:54 View/Users/admin_view.ctp:52
+#: View/Users/index.ctp:54 View/Users/view.ctp:52
+msgid "New User"
+msgstr ""
+
+#: View/Cars/add.ctp:43 View/Cars/admin_add.ctp:43
+#: View/Cars/admin_edit.ctp:45 View/Cars/admin_index.ctp:101
+#: View/Cars/admin_view.ctp:123 View/Cars/edit.ctp:45 View/Cars/index.ctp:101
+#: View/Cars/view.ctp:123 View/Fuels/add.ctp:15 View/Fuels/admin_add.ctp:15
+#: View/Fuels/admin_edit.ctp:17 View/Fuels/admin_view.ctp:31
+#: View/Fuels/edit.ctp:17 View/Fuels/view.ctp:31
+msgid "List Fuels"
+msgstr ""
+
+#: View/Cars/add.ctp:44 View/Cars/admin_add.ctp:44
+#: View/Cars/admin_edit.ctp:46 View/Cars/admin_index.ctp:102
+#: View/Cars/admin_view.ctp:124 View/Cars/edit.ctp:46 View/Cars/index.ctp:102
+#: View/Cars/view.ctp:124 View/Fuels/admin_index.ctp:46
+#: View/Fuels/admin_view.ctp:32 View/Fuels/index.ctp:46
+#: View/Fuels/view.ctp:32
+msgid "New Fuel"
+msgstr ""
+
+#: View/Cars/add.ctp:45 View/Cars/admin_add.ctp:45
+#: View/Cars/admin_edit.ctp:47 View/Cars/admin_index.ctp:103
+#: View/Cars/admin_view.ctp:125 View/Cars/edit.ctp:47 View/Cars/index.ctp:103
+#: View/Cars/view.ctp:125 View/CustomerCars/add.ctp:21
+#: View/CustomerCars/admin_add.ctp:21 View/CustomerCars/admin_edit.ctp:23
+#: View/CustomerCars/admin_index.ctp:59 View/CustomerCars/admin_view.ctp:50
+#: View/CustomerCars/edit.ctp:23 View/CustomerCars/index.ctp:59
+#: View/CustomerCars/view.ctp:50 View/CustomerCategories/add.ctp:17
+#: View/CustomerCategories/admin_add.ctp:17
+#: View/CustomerCategories/admin_edit.ctp:19
+#: View/CustomerCategories/admin_index.ctp:49
+#: View/CustomerCategories/admin_view.ctp:38
+#: View/CustomerCategories/edit.ctp:19 View/CustomerCategories/index.ctp:49
+#: View/CustomerCategories/view.ctp:38 View/Customers/add.ctp:35
+#: View/Customers/admin_add.ctp:35 View/Customers/admin_edit.ctp:37
+#: View/Customers/admin_view.ctp:131 View/Customers/edit.ctp:37
+#: View/Customers/view.ctp:131 View/Users/add.ctp:22
+#: View/Users/admin_add.ctp:22 View/Users/admin_edit.ctp:24
+#: View/Users/admin_index.ctp:57 View/Users/admin_view.ctp:55
+#: View/Users/edit.ctp:24 View/Users/index.ctp:57 View/Users/view.ctp:55
+msgid "List Customers"
+msgstr ""
+
+#: View/Cars/add.ctp:46 View/Cars/admin_add.ctp:46
+#: View/Cars/admin_edit.ctp:48 View/Cars/admin_index.ctp:104
+#: View/Cars/admin_view.ctp:126;198 View/Cars/edit.ctp:48
+#: View/Cars/index.ctp:104 View/Cars/view.ctp:126;198
+#: View/CustomerCars/add.ctp:22 View/CustomerCars/admin_add.ctp:22
+#: View/CustomerCars/admin_edit.ctp:24 View/CustomerCars/admin_index.ctp:60
+#: View/CustomerCars/admin_view.ctp:51 View/CustomerCars/edit.ctp:24
+#: View/CustomerCars/index.ctp:60 View/CustomerCars/view.ctp:51
+#: View/CustomerCategories/add.ctp:18
+#: View/CustomerCategories/admin_add.ctp:18
+#: View/CustomerCategories/admin_edit.ctp:20
+#: View/CustomerCategories/admin_index.ctp:50
+#: View/CustomerCategories/admin_view.ctp:39;111
+#: View/CustomerCategories/edit.ctp:20 View/CustomerCategories/index.ctp:50
+#: View/CustomerCategories/view.ctp:39;111 View/Customers/admin_index.ctp:90
+#: View/Customers/admin_view.ctp:132 View/Customers/index.ctp:90
+#: View/Customers/view.ctp:132 View/Users/add.ctp:23
+#: View/Users/admin_add.ctp:23 View/Users/admin_edit.ctp:25
+#: View/Users/admin_index.ctp:58 View/Users/admin_view.ctp:56;195
+#: View/Users/edit.ctp:25 View/Users/index.ctp:58 View/Users/view.ctp:56;195
+msgid "New Customer"
+msgstr ""
+
+#: View/Cars/admin_add.ctp:4
+msgid "Admin Add Car"
+msgstr ""
+
+#: View/Cars/admin_edit.ctp:4
+msgid "Admin Edit Car"
+msgstr ""
+
+#: View/Cars/admin_index.ctp:2 View/Cars/index.ctp:2
+msgid "Cars"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:2 View/Cars/view.ctp:2
+#: View/CustomerCars/admin_view.ctp:9 View/CustomerCars/view.ctp:9
+msgid "Car"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:79 View/Cars/view.ctp:79
+#: View/Marks/admin_view.ctp:2 View/Marks/view.ctp:2
+msgid "Mark"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:89 View/Cars/view.ctp:89
+#: View/Customers/admin_view.ctp:114 View/Customers/view.ctp:114
+#: View/Events/admin_view.ctp:59 View/Events/view.ctp:59
+#: View/Users/admin_view.ctp:2 View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:99 View/Cars/view.ctp:99
+#: View/Fuels/admin_view.ctp:2 View/Fuels/view.ctp:2
+msgid "Fuel"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:109 View/Cars/edit.ctp:4 View/Cars/view.ctp:109
+msgid "Edit Car"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:110 View/Cars/view.ctp:110
+msgid "Delete Car"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:130 View/Cars/view.ctp:130
+#: View/CustomerCategories/admin_view.ctp:43
+#: View/CustomerCategories/view.ctp:43 View/Users/admin_view.ctp:127
+#: View/Users/view.ctp:127
+msgid "Related Customers"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:136 View/Cars/view.ctp:136
+#: View/CustomerCategories/admin_view.ctp:49
+#: View/CustomerCategories/view.ctp:49 View/Customers/admin_view.ctp:14
+#: View/Customers/view.ctp:14 View/Users/admin_view.ctp:9;133
+#: View/Users/view.ctp:9;133
+msgid "First Name"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:137 View/Cars/view.ctp:137
+#: View/CustomerCategories/admin_view.ctp:50
+#: View/CustomerCategories/view.ctp:50 View/Customers/admin_view.ctp:19
+#: View/Customers/view.ctp:19 View/Users/admin_view.ctp:14;134
+#: View/Users/view.ctp:14;134
+msgid "Last Name"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:138 View/Cars/view.ctp:138
+#: View/CustomerCategories/admin_view.ctp:51
+#: View/CustomerCategories/view.ctp:51 View/Customers/admin_view.ctp:24
+#: View/Customers/view.ctp:24 View/Users/admin_view.ctp:135
+#: View/Users/view.ctp:135
+msgid "Company"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:139 View/Cars/view.ctp:139
+#: View/CustomerCategories/admin_view.ctp:52
+#: View/CustomerCategories/view.ctp:52 View/Customers/admin_view.ctp:29
+#: View/Customers/view.ctp:29 View/InterferingTypes/admin_view.ctp:44
+#: View/InterferingTypes/view.ctp:44 View/Interferings/admin_view.ctp:14
+#: View/Interferings/view.ctp:14 View/Users/admin_view.ctp:136
+#: View/Users/view.ctp:136
+msgid "Adress"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:140 View/Cars/view.ctp:140
+#: View/CustomerCategories/admin_view.ctp:53
+#: View/CustomerCategories/view.ctp:53 View/Customers/admin_view.ctp:34
+#: View/Customers/view.ctp:34 View/InterferingTypes/admin_view.ctp:45
+#: View/InterferingTypes/view.ctp:45 View/Interferings/admin_view.ctp:19
+#: View/Interferings/view.ctp:19 View/Users/admin_view.ctp:137
+#: View/Users/view.ctp:137
+msgid "Tel"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:141 View/Cars/view.ctp:141
+#: View/CustomerCategories/admin_view.ctp:54
+#: View/CustomerCategories/view.ctp:54 View/Customers/admin_view.ctp:39
+#: View/Customers/view.ctp:39 View/Users/admin_view.ctp:138
+#: View/Users/view.ctp:138
+msgid "Mobile"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:142 View/Cars/view.ctp:142
+#: View/CustomerCategories/admin_view.ctp:55
+#: View/CustomerCategories/view.ctp:55 View/Customers/admin_view.ctp:44
+#: View/Customers/view.ctp:44 View/Users/admin_view.ctp:19;139
+#: View/Users/view.ctp:19;139
+msgid "Email"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:143 View/Cars/view.ctp:143
+#: View/CustomerCategories/admin_view.ctp:56
+#: View/CustomerCategories/view.ctp:56 View/Customers/admin_view.ctp:49
+#: View/Customers/view.ctp:49 View/Users/admin_view.ctp:140
+#: View/Users/view.ctp:140
+msgid "Birthday"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:144 View/Cars/view.ctp:144
+#: View/CustomerCategories/admin_view.ctp:57
+#: View/CustomerCategories/view.ctp:57 View/Customers/admin_view.ctp:54
+#: View/Customers/view.ctp:54 View/Users/admin_view.ctp:141
+#: View/Users/view.ctp:141
+msgid "Birthplace"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:145 View/Cars/view.ctp:145
+#: View/CustomerCategories/admin_view.ctp:58
+#: View/CustomerCategories/view.ctp:58 View/Customers/admin_view.ctp:59
+#: View/Customers/view.ctp:59 View/Users/admin_view.ctp:142
+#: View/Users/view.ctp:142
+msgid "Job"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:146 View/Cars/view.ctp:146
+#: View/CustomerCategories/admin_view.ctp:59
+#: View/CustomerCategories/view.ctp:59 View/Customers/admin_view.ctp:64
+#: View/Customers/view.ctp:64 View/Users/admin_view.ctp:143
+#: View/Users/view.ctp:143
+msgid "Identity Card Nu"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:147 View/Cars/view.ctp:147
+#: View/CustomerCategories/admin_view.ctp:60
+#: View/CustomerCategories/view.ctp:60 View/Customers/admin_view.ctp:69
+#: View/Customers/view.ctp:69 View/Users/admin_view.ctp:144
+#: View/Users/view.ctp:144
+msgid "Identity Card Scan"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:148 View/Cars/view.ctp:148
+#: View/CustomerCategories/admin_view.ctp:61
+#: View/CustomerCategories/view.ctp:61 View/Customers/admin_view.ctp:74
+#: View/Customers/view.ctp:74 View/Users/admin_view.ctp:145
+#: View/Users/view.ctp:145
+msgid "Driver License Nu"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:149 View/Cars/view.ctp:149
+#: View/CustomerCategories/admin_view.ctp:62
+#: View/CustomerCategories/view.ctp:62 View/Customers/admin_view.ctp:79
+#: View/Customers/view.ctp:79 View/Users/admin_view.ctp:146
+#: View/Users/view.ctp:146
+msgid "Driver License Scan"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:150 View/Cars/view.ctp:150
+#: View/CustomerCategories/admin_view.ctp:63
+#: View/CustomerCategories/view.ctp:63 View/Customers/admin_view.ctp:84
+#: View/Customers/view.ctp:84 View/Users/admin_view.ctp:147
+#: View/Users/view.ctp:147
+msgid "Passport Nu"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:151 View/Cars/view.ctp:151
+#: View/CustomerCategories/admin_view.ctp:64
+#: View/CustomerCategories/view.ctp:64 View/Customers/admin_view.ctp:89
+#: View/Customers/view.ctp:89 View/Users/admin_view.ctp:148
+#: View/Users/view.ctp:148
+msgid "Passport Scan"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:153 View/Cars/view.ctp:153
+#: View/CustomerCategories/admin_view.ctp:66
+#: View/CustomerCategories/view.ctp:66 View/Customers/admin_view.ctp:99
+#: View/Customers/view.ctp:99 View/Users/admin_view.ctp:150
+#: View/Users/view.ctp:150
+msgid "Image"
+msgstr ""
+
+#: View/Cars/admin_view.ctp:157 View/Cars/view.ctp:157
+#: View/CustomerCategories/admin_view.ctp:70
+#: View/CustomerCategories/view.ctp:70 View/Users/admin_view.ctp:154
+#: View/Users/view.ctp:154
+msgid "Customer Category Id"
+msgstr ""
+
+#: View/CustomerCars/add.ctp:4
+msgid "Add Customer Car"
+msgstr ""
+
+#: View/CustomerCars/add.ctp:18 View/CustomerCars/admin_add.ctp:18
+#: View/CustomerCars/admin_edit.ctp:20 View/CustomerCars/admin_view.ctp:46
+#: View/CustomerCars/edit.ctp:20 View/CustomerCars/view.ctp:46
+#: View/Customers/add.ctp:40 View/Customers/admin_add.ctp:40
+#: View/Customers/admin_edit.ctp:42 View/Customers/admin_index.ctp:95
+#: View/Customers/admin_view.ctp:137 View/Customers/edit.ctp:42
+#: View/Customers/index.ctp:95 View/Customers/view.ctp:137
+msgid "List Customer Cars"
+msgstr ""
+
+#: View/CustomerCars/admin_add.ctp:4
+msgid "Admin Add Customer Car"
+msgstr ""
+
+#: View/CustomerCars/admin_edit.ctp:4
+msgid "Admin Edit Customer Car"
+msgstr ""
+
+#: View/CustomerCars/admin_index.ctp:2 View/CustomerCars/index.ctp:2
+msgid "Customer Cars"
+msgstr ""
+
+#: View/CustomerCars/admin_index.ctp:56 View/CustomerCars/admin_view.ctp:47
+#: View/CustomerCars/index.ctp:56 View/CustomerCars/view.ctp:47
+#: View/Customers/add.ctp:41 View/Customers/admin_add.ctp:41
+#: View/Customers/admin_edit.ctp:43 View/Customers/admin_index.ctp:96
+#: View/Customers/admin_view.ctp:138;176 View/Customers/edit.ctp:43
+#: View/Customers/index.ctp:96 View/Customers/view.ctp:138;176
+msgid "New Customer Car"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:2 View/CustomerCars/view.ctp:2
+msgid "Customer Car"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:14 View/CustomerCars/view.ctp:14
+#: View/Customers/admin_view.ctp:2 View/Customers/view.ctp:2
+msgid "Customer"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:19 View/CustomerCars/view.ctp:19
+#: View/Customers/admin_view.ctp:149 View/Customers/view.ctp:149
+msgid "Start"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:24 View/CustomerCars/view.ctp:24
+#: View/Customers/admin_view.ctp:150 View/Customers/view.ctp:150
+msgid "End"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:44 View/CustomerCars/edit.ctp:4
+#: View/CustomerCars/view.ctp:44
+msgid "Edit Customer Car"
+msgstr ""
+
+#: View/CustomerCars/admin_view.ctp:45 View/CustomerCars/view.ctp:45
+msgid "Delete Customer Car"
+msgstr ""
+
+#: View/CustomerCategories/add.ctp:4
+msgid "Add Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/add.ctp:16
+#: View/CustomerCategories/admin_add.ctp:16
+#: View/CustomerCategories/admin_edit.ctp:18
+#: View/CustomerCategories/admin_view.ctp:36
+#: View/CustomerCategories/edit.ctp:18 View/CustomerCategories/view.ctp:36
+#: View/Customers/add.ctp:38 View/Customers/admin_add.ctp:38
+#: View/Customers/admin_edit.ctp:40 View/Customers/admin_index.ctp:93
+#: View/Customers/admin_view.ctp:135 View/Customers/edit.ctp:40
+#: View/Customers/index.ctp:93 View/Customers/view.ctp:135
+msgid "List Customer Categories"
+msgstr ""
+
+#: View/CustomerCategories/admin_add.ctp:4
+msgid "Admin Add Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/admin_edit.ctp:4
+msgid "Admin Edit Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/admin_index.ctp:2
+#: View/CustomerCategories/index.ctp:2
+msgid "Customer Categories"
+msgstr ""
+
+#: View/CustomerCategories/admin_index.ctp:48
+#: View/CustomerCategories/admin_view.ctp:37
+#: View/CustomerCategories/index.ctp:48 View/CustomerCategories/view.ctp:37
+#: View/Customers/add.ctp:39 View/Customers/admin_add.ctp:39
+#: View/Customers/admin_edit.ctp:41 View/Customers/admin_index.ctp:94
+#: View/Customers/admin_view.ctp:136 View/Customers/edit.ctp:41
+#: View/Customers/index.ctp:94 View/Customers/view.ctp:136
+msgid "New Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/admin_view.ctp:2
+#: View/CustomerCategories/view.ctp:2 View/Customers/admin_view.ctp:119
+#: View/Customers/view.ctp:119
+msgid "Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/admin_view.ctp:14
+#: View/CustomerCategories/view.ctp:14
+msgid "Discount Rate"
+msgstr ""
+
+#: View/CustomerCategories/admin_view.ctp:34
+#: View/CustomerCategories/edit.ctp:4 View/CustomerCategories/view.ctp:34
+msgid "Edit Customer Category"
+msgstr ""
+
+#: View/CustomerCategories/admin_view.ctp:35
+#: View/CustomerCategories/view.ctp:35
+msgid "Delete Customer Category"
+msgstr ""
+
+#: View/Customers/add.ctp:4
+msgid "Add Customer"
+msgstr ""
+
+#: View/Customers/admin_add.ctp:4
+msgid "Admin Add Customer"
+msgstr ""
+
+#: View/Customers/admin_edit.ctp:4
+msgid "Admin Edit Customer"
+msgstr ""
+
+#: View/Customers/admin_index.ctp:2 View/Customers/index.ctp:2
+msgid "Customers"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:129 View/Customers/edit.ctp:4
+#: View/Customers/view.ctp:129
+msgid "Edit Customer"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:130 View/Customers/view.ctp:130
+msgid "Delete Customer"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:142 View/Customers/view.ctp:142
+msgid "Related Customer Cars"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:147 View/Customers/view.ctp:147
+msgid "Car Id"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:148 View/Customers/view.ctp:148
+msgid "Customer Id"
+msgstr ""
+
+#: View/EventTypes/add.ctp:4
+msgid "Add Event Type"
+msgstr ""
+
+#: View/EventTypes/add.ctp:16 View/EventTypes/admin_add.ctp:16
+#: View/EventTypes/admin_edit.ctp:18 View/EventTypes/admin_view.ctp:36
+#: View/EventTypes/edit.ctp:18 View/EventTypes/view.ctp:36
+#: View/Events/add.ctp:30 View/Events/admin_add.ctp:30
+#: View/Events/admin_edit.ctp:32 View/Events/admin_index.ctp:77
+#: View/Events/admin_view.ctp:87 View/Events/edit.ctp:32
+#: View/Events/index.ctp:77 View/Events/view.ctp:87
+msgid "List Event Types"
+msgstr ""
+
+#: View/EventTypes/add.ctp:17 View/EventTypes/admin_add.ctp:17
+#: View/EventTypes/admin_edit.ctp:19 View/EventTypes/admin_index.ctp:49
+#: View/EventTypes/admin_view.ctp:38 View/EventTypes/edit.ctp:19
+#: View/EventTypes/index.ctp:49 View/EventTypes/view.ctp:38
+#: View/Events/add.ctp:25 View/Events/admin_add.ctp:25
+#: View/Events/admin_edit.ctp:27 View/Events/admin_view.ctp:81
+#: View/Events/edit.ctp:27 View/Events/view.ctp:81
+#: View/Interferings/add.ctp:21 View/Interferings/admin_add.ctp:21
+#: View/Interferings/admin_edit.ctp:23 View/Interferings/admin_index.ctp:57
+#: View/Interferings/admin_view.ctp:50 View/Interferings/edit.ctp:23
+#: View/Interferings/index.ctp:57 View/Interferings/view.ctp:50
+#: View/Users/add.ctp:24 View/Users/admin_add.ctp:24
+#: View/Users/admin_edit.ctp:26 View/Users/admin_index.ctp:59
+#: View/Users/admin_view.ctp:57 View/Users/edit.ctp:26
+#: View/Users/index.ctp:59 View/Users/view.ctp:57
+msgid "List Events"
+msgstr ""
+
+#: View/EventTypes/add.ctp:18 View/EventTypes/admin_add.ctp:18
+#: View/EventTypes/admin_edit.ctp:20 View/EventTypes/admin_index.ctp:50
+#: View/EventTypes/admin_view.ctp:39;91 View/EventTypes/edit.ctp:20
+#: View/EventTypes/index.ctp:50 View/EventTypes/view.ctp:39;91
+#: View/Events/admin_index.ctp:72 View/Events/admin_view.ctp:82
+#: View/Events/index.ctp:72 View/Events/view.ctp:82
+#: View/Interferings/add.ctp:22 View/Interferings/admin_add.ctp:22
+#: View/Interferings/admin_edit.ctp:24 View/Interferings/admin_index.ctp:58
+#: View/Interferings/admin_view.ctp:51;103 View/Interferings/edit.ctp:24
+#: View/Interferings/index.ctp:58 View/Interferings/view.ctp:51;103
+#: View/Users/add.ctp:25 View/Users/admin_add.ctp:25
+#: View/Users/admin_edit.ctp:27 View/Users/admin_index.ctp:60
+#: View/Users/admin_view.ctp:58;248 View/Users/edit.ctp:27
+#: View/Users/index.ctp:60 View/Users/view.ctp:58;248
+msgid "New Event"
+msgstr ""
+
+#: View/EventTypes/admin_add.ctp:4
+msgid "Admin Add Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_edit.ctp:4
+msgid "Admin Edit Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_index.ctp:2 View/EventTypes/index.ctp:2
+msgid "Event Types"
+msgstr ""
+
+#: View/EventTypes/admin_index.ctp:48 View/EventTypes/admin_view.ctp:37
+#: View/EventTypes/index.ctp:48 View/EventTypes/view.ctp:37
+#: View/Events/add.ctp:31 View/Events/admin_add.ctp:31
+#: View/Events/admin_edit.ctp:33 View/Events/admin_index.ctp:78
+#: View/Events/admin_view.ctp:88 View/Events/edit.ctp:33
+#: View/Events/index.ctp:78 View/Events/view.ctp:88
+msgid "New Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:2 View/EventTypes/view.ctp:2
+#: View/Events/admin_view.ctp:69 View/Events/view.ctp:69
+msgid "Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:14 View/EventTypes/view.ctp:14
+msgid "With Km"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:34 View/EventTypes/edit.ctp:4
+#: View/EventTypes/view.ctp:34
+msgid "Edit Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:35 View/EventTypes/view.ctp:35
+msgid "Delete Event Type"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:43 View/EventTypes/view.ctp:43
+#: View/Interferings/admin_view.ctp:55 View/Interferings/view.ctp:55
+#: View/Users/admin_view.ctp:200 View/Users/view.ctp:200
+msgid "Related Events"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:48 View/EventTypes/view.ctp:48
+#: View/Events/admin_view.ctp:9 View/Events/view.ctp:9
+#: View/Interferings/admin_view.ctp:60 View/Interferings/view.ctp:60
+#: View/Users/admin_view.ctp:205 View/Users/view.ctp:205
+msgid "Date"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:49 View/EventTypes/view.ctp:49
+#: View/Events/admin_view.ctp:14 View/Events/view.ctp:14
+#: View/Interferings/admin_view.ctp:61 View/Interferings/view.ctp:61
+#: View/Users/admin_view.ctp:206 View/Users/view.ctp:206
+msgid "Next Date"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:50 View/EventTypes/view.ctp:50
+#: View/Events/admin_view.ctp:19 View/Events/view.ctp:19
+#: View/Interferings/admin_view.ctp:62 View/Interferings/view.ctp:62
+#: View/Users/admin_view.ctp:207 View/Users/view.ctp:207
+msgid "Km"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:51 View/EventTypes/view.ctp:51
+#: View/Events/admin_view.ctp:24 View/Events/view.ctp:24
+#: View/Interferings/admin_view.ctp:63 View/Interferings/view.ctp:63
+#: View/Users/admin_view.ctp:208 View/Users/view.ctp:208
+msgid "Next Km"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:52 View/EventTypes/view.ctp:52
+#: View/Events/admin_view.ctp:29 View/Events/view.ctp:29
+#: View/Interferings/admin_view.ctp:64 View/Interferings/view.ctp:64
+#: View/Users/admin_view.ctp:209 View/Users/view.ctp:209
+msgid "Disabled"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:53 View/EventTypes/view.ctp:53
+#: View/Events/admin_view.ctp:34 View/Events/view.ctp:34
+#: View/Interferings/admin_view.ctp:65 View/Interferings/view.ctp:65
+#: View/Users/admin_view.ctp:210 View/Users/view.ctp:210
+msgid "Obs"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:54 View/EventTypes/view.ctp:54
+#: View/Events/admin_view.ctp:39 View/Events/view.ctp:39
+#: View/Interferings/admin_view.ctp:66 View/Interferings/view.ctp:66
+#: View/Users/admin_view.ctp:211 View/Users/view.ctp:211
+msgid "Cost"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:55 View/EventTypes/view.ctp:55
+#: View/Events/admin_view.ctp:44 View/Events/view.ctp:44
+#: View/Interferings/admin_view.ctp:67 View/Interferings/view.ctp:67
+#: View/Users/admin_view.ctp:212 View/Users/view.ctp:212
+msgid "Send Mail"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:59 View/EventTypes/view.ctp:59
+#: View/Interferings/admin_view.ctp:71 View/Interferings/view.ctp:71
+#: View/Users/admin_view.ctp:216 View/Users/view.ctp:216
+msgid "Interfering Id"
+msgstr ""
+
+#: View/EventTypes/admin_view.ctp:60 View/EventTypes/view.ctp:60
+#: View/Interferings/admin_view.ctp:72 View/Interferings/view.ctp:72
+#: View/Users/admin_view.ctp:217 View/Users/view.ctp:217
+msgid "Event Type Id"
+msgstr ""
+
+#: View/Events/add.ctp:4
+msgid "Add Event"
+msgstr ""
+
+#: View/Events/add.ctp:28 View/Events/admin_add.ctp:28
+#: View/Events/admin_edit.ctp:30 View/Events/admin_index.ctp:75
+#: View/Events/admin_view.ctp:85 View/Events/edit.ctp:30
+#: View/Events/index.ctp:75 View/Events/view.ctp:85
+#: View/InterferingTypes/add.ctp:16 View/InterferingTypes/admin_add.ctp:16
+#: View/InterferingTypes/admin_edit.ctp:18
+#: View/InterferingTypes/admin_index.ctp:47
+#: View/InterferingTypes/admin_view.ctp:33 View/InterferingTypes/edit.ctp:18
+#: View/InterferingTypes/index.ctp:47 View/InterferingTypes/view.ctp:33
+#: View/Interferings/add.ctp:18 View/Interferings/admin_add.ctp:18
+#: View/Interferings/admin_edit.ctp:20 View/Interferings/admin_view.ctp:46
+#: View/Interferings/edit.ctp:20 View/Interferings/view.ctp:46
+msgid "List Interferings"
+msgstr ""
+
+#: View/Events/add.ctp:29 View/Events/admin_add.ctp:29
+#: View/Events/admin_edit.ctp:31 View/Events/admin_index.ctp:76
+#: View/Events/admin_view.ctp:86 View/Events/edit.ctp:31
+#: View/Events/index.ctp:76 View/Events/view.ctp:86
+#: View/InterferingTypes/add.ctp:17 View/InterferingTypes/admin_add.ctp:17
+#: View/InterferingTypes/admin_edit.ctp:19
+#: View/InterferingTypes/admin_index.ctp:48
+#: View/InterferingTypes/admin_view.ctp:34;72
+#: View/InterferingTypes/edit.ctp:19 View/InterferingTypes/index.ctp:48
+#: View/InterferingTypes/view.ctp:34;72 View/Interferings/admin_index.ctp:54
+#: View/Interferings/admin_view.ctp:47 View/Interferings/index.ctp:54
+#: View/Interferings/view.ctp:47
+msgid "New Interfering"
+msgstr ""
+
+#: View/Events/admin_add.ctp:4
+msgid "Admin Add Event"
+msgstr ""
+
+#: View/Events/admin_edit.ctp:4
+msgid "Admin Edit Event"
+msgstr ""
+
+#: View/Events/admin_index.ctp:2 View/Events/index.ctp:2
+msgid "Events"
+msgstr ""
+
+#: View/Events/admin_view.ctp:2 View/Events/view.ctp:2
+msgid "Event"
+msgstr ""
+
+#: View/Events/admin_view.ctp:64 View/Events/view.ctp:64
+#: View/Interferings/admin_view.ctp:2 View/Interferings/view.ctp:2
+msgid "Interfering"
+msgstr ""
+
+#: View/Events/admin_view.ctp:79 View/Events/edit.ctp:4
+#: View/Events/view.ctp:79
+msgid "Edit Event"
+msgstr ""
+
+#: View/Events/admin_view.ctp:80 View/Events/view.ctp:80
+msgid "Delete Event"
+msgstr ""
+
+#: View/Fuels/add.ctp:4
+msgid "Add Fuel"
+msgstr ""
+
+#: View/Fuels/admin_add.ctp:4
+msgid "Admin Add Fuel"
+msgstr ""
+
+#: View/Fuels/admin_edit.ctp:4
+msgid "Admin Edit Fuel"
+msgstr ""
+
+#: View/Fuels/admin_index.ctp:2 View/Fuels/index.ctp:2
+msgid "Fuels"
+msgstr ""
+
+#: View/Fuels/admin_view.ctp:29 View/Fuels/edit.ctp:4 View/Fuels/view.ctp:29
+msgid "Edit Fuel"
+msgstr ""
+
+#: View/Fuels/admin_view.ctp:30 View/Fuels/view.ctp:30
+msgid "Delete Fuel"
+msgstr ""
+
+#: View/InterferingTypes/add.ctp:4
+msgid "Add Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/add.ctp:15 View/InterferingTypes/admin_add.ctp:15
+#: View/InterferingTypes/admin_edit.ctp:17
+#: View/InterferingTypes/admin_view.ctp:31 View/InterferingTypes/edit.ctp:17
+#: View/InterferingTypes/view.ctp:31 View/Interferings/add.ctp:19
+#: View/Interferings/admin_add.ctp:19 View/Interferings/admin_edit.ctp:21
+#: View/Interferings/admin_index.ctp:55 View/Interferings/admin_view.ctp:48
+#: View/Interferings/edit.ctp:21 View/Interferings/index.ctp:55
+#: View/Interferings/view.ctp:48
+msgid "List Interfering Types"
+msgstr ""
+
+#: View/InterferingTypes/admin_add.ctp:4
+msgid "Admin Add Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_edit.ctp:4
+msgid "Admin Edit Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_index.ctp:2 View/InterferingTypes/index.ctp:2
+msgid "Interfering Types"
+msgstr ""
+
+#: View/InterferingTypes/admin_index.ctp:46
+#: View/InterferingTypes/admin_view.ctp:32 View/InterferingTypes/index.ctp:46
+#: View/InterferingTypes/view.ctp:32 View/Interferings/add.ctp:20
+#: View/Interferings/admin_add.ctp:20 View/Interferings/admin_edit.ctp:22
+#: View/Interferings/admin_index.ctp:56 View/Interferings/admin_view.ctp:49
+#: View/Interferings/edit.ctp:22 View/Interferings/index.ctp:56
+#: View/Interferings/view.ctp:49
+msgid "New Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_view.ctp:2 View/InterferingTypes/view.ctp:2
+#: View/Interferings/admin_view.ctp:34 View/Interferings/view.ctp:34
+msgid "Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_view.ctp:29 View/InterferingTypes/edit.ctp:4
+#: View/InterferingTypes/view.ctp:29
+msgid "Edit Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_view.ctp:30 View/InterferingTypes/view.ctp:30
+msgid "Delete Interfering Type"
+msgstr ""
+
+#: View/InterferingTypes/admin_view.ctp:38 View/InterferingTypes/view.ctp:38
+msgid "Related Interferings"
+msgstr ""
+
+#: View/InterferingTypes/admin_view.ctp:48 View/InterferingTypes/view.ctp:48
+msgid "Interfering Type Id"
+msgstr ""
+
+#: View/Interferings/add.ctp:4
+msgid "Add Interfering"
+msgstr ""
+
+#: View/Interferings/admin_add.ctp:4
+msgid "Admin Add Interfering"
+msgstr ""
+
+#: View/Interferings/admin_edit.ctp:4
+msgid "Admin Edit Interfering"
+msgstr ""
+
+#: View/Interferings/admin_index.ctp:2 View/Interferings/index.ctp:2
+msgid "Interferings"
+msgstr ""
+
+#: View/Interferings/admin_view.ctp:44 View/Interferings/edit.ctp:4
+#: View/Interferings/view.ctp:44
+msgid "Edit Interfering"
+msgstr ""
+
+#: View/Interferings/admin_view.ctp:45 View/Interferings/view.ctp:45
+msgid "Delete Interfering"
+msgstr ""
+
+#: View/Marks/add.ctp:4
+msgid "Add Mark"
+msgstr ""
+
+#: View/Marks/admin_add.ctp:4
+msgid "Admin Add Mark"
+msgstr ""
+
+#: View/Marks/admin_edit.ctp:4
+msgid "Admin Edit Mark"
+msgstr ""
+
+#: View/Marks/admin_index.ctp:2 View/Marks/index.ctp:2
+msgid "Marks"
+msgstr ""
+
+#: View/Marks/admin_view.ctp:29 View/Marks/edit.ctp:4 View/Marks/view.ctp:29
+msgid "Edit Mark"
+msgstr ""
+
+#: View/Marks/admin_view.ctp:30 View/Marks/view.ctp:30
+msgid "Delete Mark"
+msgstr ""
+
+#: View/Parameters/add.ctp:4
+msgid "Add Parameter"
+msgstr ""
+
+#: View/Parameters/add.ctp:16 View/Parameters/admin_add.ctp:16
+#: View/Parameters/admin_edit.ctp:18 View/Parameters/admin_view.ctp:36
+#: View/Parameters/edit.ctp:18 View/Parameters/view.ctp:36
+msgid "List Parameters"
+msgstr ""
+
+#: View/Parameters/admin_add.ctp:4
+msgid "Admin Add Parameter"
+msgstr ""
+
+#: View/Parameters/admin_edit.ctp:4
+msgid "Admin Edit Parameter"
+msgstr ""
+
+#: View/Parameters/admin_index.ctp:2 View/Parameters/index.ctp:2
+msgid "Parameters"
+msgstr ""
+
+#: View/Parameters/admin_index.ctp:48 View/Parameters/admin_view.ctp:37
+#: View/Parameters/index.ctp:48 View/Parameters/view.ctp:37
+msgid "New Parameter"
+msgstr ""
+
+#: View/Parameters/admin_view.ctp:2 View/Parameters/view.ctp:2
+msgid "Parameter"
+msgstr ""
+
+#: View/Parameters/admin_view.ctp:14 View/Parameters/view.ctp:14
+msgid "Val"
+msgstr ""
+
+#: View/Parameters/admin_view.ctp:34 View/Parameters/edit.ctp:4
+#: View/Parameters/view.ctp:34
+msgid "Edit Parameter"
+msgstr ""
+
+#: View/Parameters/admin_view.ctp:35 View/Parameters/view.ctp:35
+msgid "Delete Parameter"
+msgstr ""
+
+#: View/Users/add.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: View/Users/admin_add.ctp:4
+msgid "Admin Add User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:4
+msgid "Admin Edit User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:2 View/Users/index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/admin_view.ctp:24 View/Users/view.ctp:24
+msgid "Username"
+msgstr ""
+
+#: View/Users/admin_view.ctp:29 View/Users/view.ctp:29
+msgid "Password"
+msgstr ""
+
+#: View/Users/admin_view.ctp:49 View/Users/edit.ctp:4 View/Users/view.ctp:49
+msgid "Edit User"
+msgstr ""
+
+#: View/Users/admin_view.ctp:50 View/Users/view.ctp:50
+msgid "Delete User"
+msgstr ""
+
+#: Model/Car.php:validation for field model;validation immatr_prov;validation
+#: chassis;validation color;validation car_status_id;validation
+#: mark_id;validation car_type_id;validation user_id;validation
+#: car_category_id;validation fuel_id Model/CarCategory.php:validation name
+#: Model/CarStatus.php:validation Model/CarType.php:validation
+#: Model/Customer.php:validation first_name
+#: Model/CustomerCategory.php:validation Model/EventType.php:validation
+#: Model/Fuel.php:validation Model/Interfering.php:validation
+#: Model/InterferingType.php:validation Model/Mark.php:validation
+#: Model/Parameter.php:validation Model/User.php:validation
+#: first_name;validation last_name;validation username;validation password
+msgid "notEmpty"
+msgstr ""
+
+#: Model/Car.php:validation for field nbplace Model/Customer.php:validation
+#: user_id;validation customer_category_id Model/Event.php:validation
+#: km;validation next_km;validation interfering_id;validation event_type_id
+#: Model/Interfering.php:validation interfering_type_id
+#: Model/Parameter.php:validation val
+msgid "numeric"
+msgstr ""
+
+#: Model/Car.php:validation for field circulation_date;validation
+#: date_approval
+msgid "datetime"
+msgstr ""
+
+#: Model/CarCategory.php:validation for field price
+#: Model/Event.php:validation cost
+msgid "decimal"
+msgstr ""
+
+#: Model/Customer.php:validation for field email Model/User.php:validation
+msgid "email"
+msgstr ""
+
+#: Model/Customer.php:validation for field birthday
+#: Model/Event.php:validation date;validation next_date
+msgid "date"
+msgstr ""

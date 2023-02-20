@@ -1,0 +1,190 @@
+.account-pages {
+    background: #f5f5f5 none !important;
+    height: 100%;
+    margin: 0;
+    overflow: hidden
+}
+
+.custom-logo{
+    margin-left: 0!important;
+    margin-bottom: 30px!important;
+}
+.custom-submit{
+    border-color : #053369!important ;
+    border-bottom: none!important;
+}
+.btn-bordred.btn-custom{
+    background-color: #053369;
+    border-bottom: 2px solid #053369 !important
+}
+.custom-submit:hover{
+    background-color: #0586b2!important;
+}
+
+.panel-blue{
+    background-color: #3bc1ed!important;;
+}
+
+.panel-blue-dark{
+    background-color: #053369!important;;
+}
+
+.navigation-menu{
+    background-color: #f5f5f5!important;
+}
+.navigation-menu li a {
+    color: #053369!important ;
+}
+
+.navigation-menu i{
+    color: #053369!important ;
+}
+.container-white{
+    background-color: #f5f5f5!important;
+}
+.container-green i{
+    color: #053369!important;
+}
+.navigation-menu > li.active > a{
+    border-left: 3px solid #3bc1ed!important;
+    color: #3bc1ed!important;
+}
+.navigation-menu > li.active > a i{
+    color: #3bc1ed!important;
+}
+
+#topnav .active a:first-of-type {
+    color: #3bc1ed!important;
+}
+#topnav .active a:first-of-type i {
+    color: #3bc1ed!important;
+}
+#topnav .active .submenu li.active a {
+    color: #3bc1ed!important;
+}
+
+.navigation-menu > li > a:hover i{
+    color: #3bc1ed!important;
+}
+.navigation-menu > li > a:hover{
+    color: #3bc1ed!important;
+}
+
+.navigation-menu a:hover{
+    color: #3bc1ed!important;
+}
+
+.dropdown-menu > li > a:hover{
+    color: #3bc1ed!important;
+}
+
+.logo_logistia{
+    color: #ffffff !important;
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-family: 'Rancho', cursive;
+    float: left;
+    background: url('../img/logo_logistia_menu.png') no-repeat 0 0;
+    width:232px;
+    height:64px;
+    border: none !important;
+}
+
+.custom-table{
+    background-color: #3bc1ed!important;
+}
+
+.custom-table th a{
+    color: #053369!important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.custom-table th   {
+    color: #053369!important;
+    font-size: 12px;
+}
+.custom-table tr{
+    color: #053369!important;
+}
+.odd{
+    background-color: #3bc1ed!important;
+}
+
+.even{
+    background-color: #3bc1ed!important;
+
+}
+
+.custom-table a{
+    color: #053369!important;
+}
+
+.btn-default{
+    background-color: #3bc1ed!important;
+    color: #053369!important;
+}
+
+.btn-default:hover{
+    background-color: #506c73!important;
+}
+
+.search_datatable{
+    background-color: #053369!important;
+    color: #3bc1ed;
+}
+
+.btn-custom{
+    background-color: #053369 ;
+}
+.actions > div > a{
+    background-color: #053369!important;
+    border-color: #053369!important;
+}
+
+.actions > div > a:hover{
+    background-color: #0856b2 !important;
+    border-color: #0856b2!important;
+}
+
+.actions > div > button{
+    background-color: #053369!important;
+    border-color: #053369!important;
+}
+
+.actions > div > button:hover{
+    background-color: #0856b2 !important;
+    border-color: #0856b2 !important;
+}
+
+
+.actions > div > ul > li > a {
+    background-color: #0856b2!important;
+    border-color: #0856b2 !important;
+}
+
+.actions > div > ul > li > a:hover {
+    background-color: #3bc1ed!important;
+    border-color: #3bc1ed !important;
+}
+
+.parc-master-user{
+    border: 0!important;
+}
+
+.btn-custom-2:hover,
+.btn-custom-2:focus,
+.btn-custom-2:active,
+.btn-custom-2.active,
+.btn-custom-2.focus,
+.btn-custom-2:active,
+.btn-custom-2:focus,
+.btn-custom-2:hover,
+.open > .dropdown-toggle.btn-custom-2,
+.btn-group .dropdown-menu > li > a.btn-custom-2:focus, .btn-group .dropdown-menu > li > a.btn-custom-2:hover{
+    background-color: #0856b2 !important;
+    border: 1px solid #0856b2 !important;
+}
+
+.caret{
+    color: white!important;
+}

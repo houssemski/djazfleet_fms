@@ -1,0 +1,171 @@
+.account-pages {
+    background: #052d37 none !important;
+    height: 100%;
+    margin: 0;
+    overflow: hidden
+}
+
+.custom-logo{
+    margin-left: 0!important;
+    margin-bottom: 30px!important;
+}
+.custom-submit{
+    border-color : #052d37!important ;
+    border-bottom: none!important;
+}
+.btn-bordred.btn-custom{
+    background-color: #052d37;
+    border-bottom: 2px solid #052d37 !important
+}
+.custom-submit:hover{
+    background-color: #506c73!important;
+}
+.panel-red{
+    background-color: #e55c3e!important;
+}
+.panel-yellow{
+    background-color: #e5c68f!important;
+}
+.panel-green{
+    background-color: #052d37!important;
+}
+.navigation-menu{
+    background-color: #052d37!important;
+}
+.navigation-menu li a {
+    color: #e5c68f!important ;
+}
+
+.navigation-menu i{
+    color: #e5c68f!important ;
+}
+.container-green{
+    background-color: #052d37!important;
+}
+.container-green i{
+    color: #e5c68f!important;
+}
+.active{
+    color: #e55c3e!important;
+}
+
+.navigation-menu > li > a:hover i{
+    color: #e55c3e!important;
+}
+.navigation-menu > li > a:hover{
+    color: #e55c3e!important;
+}
+
+.navigation-menu a:hover{
+    color: #e55c3e!important;
+}
+
+.dropdown-menu > li > a:hover{
+    color: #e55c3e!important;
+}
+
+.logo_parc_master{
+    color: #ffffff !important;
+    font-size: 32px;
+    margin-top: 8px;
+    font-family: 'Rancho', cursive;
+    float: left;
+    background: url('../img/parc_master_text.png') no-repeat 0 0;
+    width:232px;
+    height:64px;
+    border: none !important;
+}
+
+.custom-table{
+    background-color: #052d37!important;
+}
+
+.custom-table th a{
+    color: #e5c68f!important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.custom-table th   {
+    color: #e5c68f!important;
+    font-size: 12px;
+}
+.custom-table tr{
+    color: #e5c68f!important;
+}
+.odd{
+    background-color: #052d37!important;
+}
+
+.even{
+    background-color: #052d37!important;
+
+}
+
+.custom-table a{
+    color: #e5c68f!important;
+}
+
+.btn-default{
+    background-color: #052d37!important;
+    color: #e55c3e!important;
+}
+
+.btn-default:hover{
+    background-color: #506c73!important;
+}
+
+.search_datatable{
+    background-color: #e5c68f!important;
+    color: black;
+}
+
+.actions > div > a{
+    background-color: #e55c3e!important;
+    border-color: #e55c3e!important;
+}
+
+.actions > div > a:hover{
+    background-color: #e5683c !important;
+    border-color: #e5683c!important;
+}
+
+.actions > div > button{
+    background-color: #e55c3e!important;
+    border-color: #e55c3e!important;
+}
+
+.actions > div > button:hover{
+    background-color: #e5683c !important;
+    border-color: #e5683c !important;
+}
+
+.actions > div > ul > li > a {
+    background-color: #e55c3e!important;
+    border-color: #e59d3f !important;
+}
+
+.parc-master-user{
+    border: 0!important;
+}
+
+.btn-custom-2:hover,
+.btn-custom-2:focus,
+.btn-custom-2:active,
+.btn-custom-2.active,
+.btn-custom-2.focus,
+.btn-custom-2:active,
+.btn-custom-2:focus,
+.btn-custom-2:hover,
+.open > .dropdown-toggle.btn-custom-2,
+.btn-group .dropdown-menu > li > a.btn-custom-2:focus, .btn-group .dropdown-menu > li > a.btn-custom-2:hover
+,btn-grou {
+    background-color: #e5683c !important;
+    border: 1px solid #e59d3f !important;
+}
+
+.caret{
+    color: white!important;
+}
+
+
+

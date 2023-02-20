@@ -1,0 +1,81 @@
+<?php
+
+class SheetRideDetailRidesFixture extends CakeTestFixture
+{
+    public $import = array('model' => 'SheetRideDetailRides', 'records' => false);
+
+    public $records = [
+        [
+            'id' => '2',
+            'reference' => '2018/FR000000000002/1',
+            'supplier_id' => '246',
+            'supplier_final_id' => '246',
+            'detail_ride_id' => '10',
+            'sheet_ride_id' => '2',
+            'invoiced_ride' => '1',
+            'truck_full' => '2',
+            'return_mission' => '2',
+            'type_price' => '1',
+            'planned_start_date' => '2018-08-26 07:35:00',
+            'real_start_date' => '2018-08-26 07:35:00',
+            'km_departure' => '296518',
+            'planned_end_date' => '2018-08-27 07:45:00',
+            'real_end_date' => '2018-08-27 13:46:00',
+            'km_arrival_estimated' => '297973',
+            'km_arrival' => '297976',
+            'transport_bill_detail_ride_id' => '15',
+            'status_id' => '4',
+            'attachment1' => NULL,
+            'attachment2' => NULL,
+            'attachment3' => NULL,
+            'attachment4' => NULL,
+            'attachment5' => NULL,
+            'tank_departure' => NULL,
+            'tank_arrival' => NULL,
+            'tank_arrival_estimated' => NULL,
+            'ride_category_id' => NULL,
+            'mission_cost' => NULL,
+            'amount_remaining' => NULL,
+            'note' => '',
+            'remaining_time' => '194.66666666666663',
+            'departure_point' => '',
+            'arrival_point' => ''
+        ],
+        [
+            'id' => '3','reference' => '2018/FR000000000003/1',
+            'supplier_id' => '255',
+            'supplier_final_id' => '288',
+            'detail_ride_id' => '265',
+            'sheet_ride_id' => '3',
+            'invoiced_ride' => '1',
+            'truck_full' => '2',
+            'return_mission' => '2',
+            'type_price' => '1',
+            'planned_start_date' => '2018-08-27 02:36:00',
+            'real_start_date' => '2018-08-27 02:36:00',
+            'km_departure' => '317652',
+            'planned_end_date' => '2018-08-28 05:15:00',
+            'real_end_date' => '2018-08-28 05:15:00',
+            'km_arrival_estimated' => '319331',
+            'km_arrival' => NULL,
+            'transport_bill_detail_ride_id' => '19',
+            'status_id' => '7',
+            'attachment1' => NULL,
+            'attachment2' => NULL,
+            'attachment3' => NULL,
+            'attachment4' => NULL,
+            'attachment5' => NULL,
+            'tank_departure' => NULL,
+            'tank_arrival' => NULL,
+            'tank_arrival_estimated' => NULL,
+            'ride_category_id' => NULL,
+            'mission_cost' => NULL,
+            'amount_remaining' => NULL,
+            'note' => '',
+            'remaining_time' => '284.66666666666674',
+            'departure_point' => '',
+            'arrival_point' => ''
+        ]
+];
+
+}

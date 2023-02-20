@@ -1,0 +1,1 @@
+ALTER TABLE `transport_bills` ADD `has_credit_note` TINYINT(1) NULL DEFAULT '0' AFTER `credit_note_type`;

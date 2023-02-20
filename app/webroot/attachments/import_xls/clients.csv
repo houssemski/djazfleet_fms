@@ -1,0 +1,2 @@
+code ;Nom ;Raison sociale;catégorie client ;code adresse;adresse;latlng;RC;IF;AI;NIS;CB;Ordre de Mission;Bon de Commande;Bon de Livraison;Bon de Consignation Emballage;  Bon de Retour Emballage;Facture;Bon d’autorisation retour marchandise
+2;test;test;Conteneur;adr1;alger;(36.7538345,3.0534636);123456;123456;123456;123456;123456;1;1;1;1;0;0;0

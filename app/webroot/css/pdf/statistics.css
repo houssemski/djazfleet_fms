@@ -1,0 +1,9 @@
+table.stock-tracking .number {
+    text-align: right;
+}
+table.stock-tracking td {
+}
+
+table.stock-tracking td:last-child{
+}
+

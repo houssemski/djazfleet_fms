@@ -1,0 +1,20 @@
+2022-12-20 10:50:57 Debug: Notice (8): Undefined offset: 49 in [C:\wamp64\www\utranx\app\Plugin\BusRoutes\Controller\Component\ViewLiveBusRotationsComponent.php, line 47]
+Trace:
+ViewLiveBusRotationsComponent::generateCheckPointsArray() - APP\Plugin\BusRoutes\Controller\Component\ViewLiveBusRotationsComponent.php, line 47
+CustomRoutesController::view() - APP\Plugin\BusRoutes\Controller\CustomRoutesController.php, line 171
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 113
+
+2022-12-20 10:51:18 Debug: Notice (8): Undefined offset: 49 in [C:\wamp64\www\utranx\app\Plugin\BusRoutes\Controller\Component\ViewLiveBusRotationsComponent.php, line 47]
+Trace:
+ViewLiveBusRotationsComponent::generateCheckPointsArray() - APP\Plugin\BusRoutes\Controller\Component\ViewLiveBusRotationsComponent.php, line 47
+CustomRoutesController::view() - APP\Plugin\BusRoutes\Controller\CustomRoutesController.php, line 171
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 113
+

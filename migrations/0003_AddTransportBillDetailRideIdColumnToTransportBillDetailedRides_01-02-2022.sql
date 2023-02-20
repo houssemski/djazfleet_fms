@@ -1,0 +1,1 @@
+ALTER TABLE `transport_bill_detailed_rides` ADD `transport_bill_detail_ride_id` INT NULL AFTER `sheet_ride_id`;

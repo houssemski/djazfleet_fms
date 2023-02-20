@@ -1,0 +1,302 @@
+<?php
+
+App::uses('AppController', 'Controller');
+
+/**
+ * ProductUnit Controller
+ *
+ * @property ProductUnit $ProductUnit
+ * @property Product $Product
+ * @property Lot $Lot
+ * @property PaginatorComponent $Paginator
+ * @property PaginatorComponent $paginate
+ * @property SessionComponent $Session
+ * @property RequestHandlerComponent $RequestHandler
+ * @property SecurityComponent $Security
+ * @property FlashComponent $Flash
+ * @property CakeRequest $params
+ */
+class ProductUnitsController extends AppController
+{
+    /**
+     * Components
+     *
+     * @var array
+     */
+    public $components = array('Paginator', 'Session');
+    var $helpers = array('Xls');
+
+    /**
+     * @param null $params
+     * @param null $orderType
+     * @return array
+     */
+
+    public function getOrder($params = null , $orderType = null)
+    {
+        if($orderType == null){
+            $orderType = 'DESC';
+        }
+        if (isset($params) && is_numeric($params)) {
+            switch ($params) {
+                case 1 :
+                    $order = array('ProductUnit.code' => $orderType);
+                    break;
+                case 2 :
+                    $order = array('ProductUnit.name' => $orderType);
+                    break;
+                case 3 :
+                    $order = array('ProductUnit.id' => $orderType);
+                    break;
+
+                default :
+                    $order = array('ProductUnit.id' => $orderType);
+            }
+            return $order;
+        } else {
+            $order = array('ProductUnit.id' => $orderType);
+
+            return $order;
+        }
+    }
+
+    public function index()
+    {
+        $this->setTimeActif();
+        $user_id = $this->Auth->user('id');
+        $result = $this->verifyUserPermission(SectionsEnum::product_unit, $user_id, ActionsEnum::view,
+            "ProductUnits", null, "ProductUnit", null);
+        $limit = isset($this->params['pass']['0']) ? $this->getLimit($this->params['pass']['0']) : $this->getLimit();
+        $order = isset($this->params['pass']['1']) ? $this->getOrder($this->params['pass']['1'],$this->params['pass']['2']) : $this->getOrder();
+        switch ($result) {
+            case 1 :
+
+                $conditions = null;
+                break;
+            case 2 :
+
+                $conditions = array('ProductUnit.user_id ' => $user_id);
+                break;
+            case 3 :
+
+                $conditions = array('ProductUnit.user_id !=' => $user_id);
+
+                break;
+
+            default:
+                $conditions = null;
+
+
+        }
+
+        $this->paginate = array(
+            'recursive' => 0,
+            'limit' => $limit,
+            'order' => $order,
+            'conditions' => $conditions,
+            'paramType' => 'querystring'
+        );
+
+
+        $this->set('productUnits', $this->Paginator->paginate());
+        $this->set(compact('limit', 'order'));
+    }
+
+    /**
+     * index method
+     *
+     * @return void
+     */
+    public function search()
+    {
+        $this->setTimeActif();
+        $limit = isset($this->params['pass']['0']) ? $this->getLimit($this->params['pass']['0']) : $this->getLimit();
+        if (isset($this->request->data['keyword'])) {
+            $this->setFilterUrl($this->request->params['controller'],
+                $this->request->params['action'], $this->request->data['keyword']);
+        }
+        $this->paginate = array(
+            'recursive' => 0,
+            'limit' => $limit,
+            'order' => array('ProductUnit.code' => 'ASC'),
+            'paramType' => 'querystring'
+        );
+        if (isset($this->params['named']['keyword'])) {
+            $keyword = trim(strtolower($this->params['named']['keyword']));
+            $this->set('productUnits', $this->Paginator->paginate('ProductUnit', array(
+                'OR' => array(
+                    "LOWER(ProductUnit.code) LIKE" => "%$keyword%",
+                    "LOWER(ProductUnit.name) LIKE" => "%$keyword%"
+                )
+            )));
+        } else {
+            $this->set('productUnits', $this->Paginator->paginate());
+        }
+        $this->set(compact('limit'));
+        $this->render();
+    }
+
+    /**
+     * view method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function view($id = null)
+    {
+        $this->setTimeActif();
+
+        if (!$this->ProductUnit->exists($id)) {
+            throw new NotFoundException(__('Invalid unit'));
+        }
+        $options = array('conditions' => array('ProductUnit.' . $this->ProductUnit->primaryKey => $id));
+        $this->set('productUnit', $this->ProductUnit->find('first', $options));
+    }
+
+    /**
+     * add method
+     *
+     * @return void
+     */
+    public function add()
+    {
+        $this->setTimeActif();
+        $user_id = $this->Auth->user('id');
+        $this->verifyUserPermission(SectionsEnum::product_unit, $user_id, ActionsEnum::add,
+            "ProductUnits", null, "ProductUnit", null);
+        if ($this->request->is('post')) {
+            if (isset($this->request->data['cancel'])) {
+
+                $this->Flash->success(__('Adding was cancelled.'));
+                $this->redirect(array('action' => 'index'));
+            }
+            $this->ProductUnit->create();
+            $this->request->data['ProductUnit']['user_id'] = $this->Session->read('Auth.User.id');
+            if ($this->ProductUnit->save($this->request->data)) {
+
+                $this->Flash->success(__('The unit has been saved.'));
+                $this->redirect(array('action' => 'index'));
+            } else {
+
+                $this->Flash->success(__('The unit could not be saved. Please, try again.'));
+            }
+        }
+    }
+
+    /**
+     * edit method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function edit($id = null)
+    {
+        $this->setTimeActif();
+        $user_id = $this->Auth->user('id');
+        $this->verifyUserPermission(SectionsEnum::product_unit, $user_id, ActionsEnum::edit,
+            "ProductUnits", $id, "ProductUnit", null);
+        if (!$this->ProductUnit->exists($id)) {
+            throw new NotFoundException(__('Invalid unit'));
+        }
+        if ($this->request->is(array('post', 'put'))) {
+            if (isset($this->request->data['cancel'])) {
+
+                $this->Flash->error(__('Changes were not saved. Unit cancelled.'));
+                $this->redirect(array('action' => 'index'));
+            }
+            $this->request->data['ProductUnit']['last_modifier_id'] = $this->Session->read('Auth.User.id');
+            if ($this->ProductUnit->save($this->request->data)) {
+
+                $this->Flash->success(__('The unit has been saved.'));
+                $this->redirect(array('action' => 'index'));
+            } else {
+
+                $this->Flash->error(__('The unit could not be saved. Please, try again.'));
+            }
+        } else {
+            $options = array('conditions' => array('ProductUnit.' . $this->ProductUnit->primaryKey => $id));
+            $this->request->data = $this->ProductUnit->find('first', $options);
+        }
+    }
+
+    /**
+     * delete method
+     *
+     * @throws NotFoundException
+     * @param string $id
+     * @return void
+     */
+    public function delete($id = null)
+    {
+        $this->setTimeActif();
+        $user_id = $this->Auth->user('id');
+        $this->verifyUserPermission(SectionsEnum::product_unit, $user_id, ActionsEnum::delete,
+            "ProductUnits", $id, "ProductUnit", null);
+        $this->ProductUnit->id = $id;
+        if (!$this->ProductUnit->exists()) {
+            throw new NotFoundException(__('Invalid unit'));
+        }
+        $this->verifyDependences($id);
+        $this->request->allowMethod('post', 'delete');
+        if ($this->ProductUnit->delete()) {
+
+            $this->Flash->success(__('The unit has been deleted.'));
+        } else {
+
+            $this->Flash->error(__('The unit could not be deleted. Please, try again.'));
+        }
+        $this->redirect(array('action' => 'index'));
+    }
+
+    public function deleteUnits()
+    {
+        $this->setTimeActif();
+        $this->autoRender = false;
+        $id = filter_input(INPUT_POST, "id");
+        $user_id = $this->Auth->user('id');
+
+        $this->verifyUserPermission(SectionsEnum::product_unit, $user_id, ActionsEnum::delete,
+            "ProductUnits", $id, "ProductUnit", null);
+        $this->ProductUnit->id = $id;
+        // $this->verifyDependences($id);
+        $this->request->allowMethod('post', 'delete');
+        if ($this->ProductUnit->delete()) {
+            echo json_encode(array("response" => "true"));
+        } else {
+            echo json_encode(array("response" => "false"));
+        }
+        /*}else{
+            echo json_encode(array("response" => "false"));
+        }*/
+    }
+
+    private function verifyDependences($id)
+    {
+        $this->setTimeActif();
+        $this->loadModel('Product');
+        $this->loadModel('Lot');
+        $result = $this->Product->getProductByForeignKey($id, "product_unit_id");
+        if (!empty($result)) {
+            $this->Flash->error(__('The unit could not be deleted. Please remove dependencies in advance.'));
+            $this->redirect(array('action' => 'index'));
+        }
+        $result = $this->Lot->getLotByForeignKey($id, "product_unit_id");
+        if (!empty($result)) {
+            $this->Flash->error(__('The unit could not be deleted. Please remove dependencies in advance.'));
+            $this->redirect(array('action' => 'index'));
+        }
+    }
+
+    function export()
+    {
+        $this->setTimeActif();
+        $Units = $this->ProductUnit->find('all', array(
+            'order' => 'ProductUnit.name asc',
+            'recursive' => 2
+        ));
+        $this->set('models', $Units);
+    }
+
+}
