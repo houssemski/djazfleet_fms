@@ -156,6 +156,42 @@
                 array('plugin' => 'BusRoutes','controller' => 'CustomRoutes','action' => 'generateReport', $busRoute['Car']['tracker_id']),
                 array('escape' => false , 'class'=>'btn btn-primary btn-trans waves-effect waves-primary w-md m-b-5','target' => '_blank')
             ); ?>
+
+            <?php echo $this->Form->create('DateFilters', array(
+                'url' => array(
+                    'plugin' => 'BusRoutes',
+                    'controller' => 'CustomRoutes',
+                    'action' => 'rotationByDate',
+                    $busRoute['BusRoute']['id'],
+                    'ext' => 'pdf',
+                ),
+                'target' =>"_blank",
+                'novalidate' => true)); ?>
+
+            <?php echo $this->Form->input('date_from', array(
+            'label' => '',
+            'type' => 'text',
+            'class' => 'form-control datemask',
+            'before' => '<label class="dte">' . __('Date de') . '</label><div class="input-group date"><div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                </div>',
+                'after' => '</div>',
+            'id' => 'date1',
+            ));
+            echo $this->Form->input('date_to', array(
+            'label' => '',
+            'type' => 'text',
+            'class' => 'form-control datemask',
+            'before' => '<label class="dte">' . __('to date') . '</label><div class="input-group date"><div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                </div>',
+                'after' => '</div>',
+            'id' => 'date2',
+            ));?>
+            <div style='clear:both; padding-top: 10px;'></div>
+            <button class="btn btn-default" type="submit"><?= __('Search') ?></button>
+            <div style='clear:both; padding-top: 10px;'></div>
+            <?php echo $this->Form->end(); ?>
             <br>
 
             <?php

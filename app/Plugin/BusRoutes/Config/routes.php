@@ -25,6 +25,14 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
+
+
+Router::parseExtensions('pdf');
+
+/**
+ * Load the CakePHP default routes. Only remove this if you do not want to use
+ * the built-in default routes.
+ */
 Router::connect('/BusRoutes/CustomRoutes/index', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'index'));
 Router::connect('/BusRoutes/CustomRoutes/add', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'add'));
 Router::connect('/BusRoutes/CustomRoutes/addStop/*', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'addStop'));
@@ -47,3 +55,5 @@ Router::connect('/BusRoutes/BusRouteStops/getBusStopGeoFenceId/*', array('plugin
 Router::connect('/BusRoutes/CustomRoutes/addRotationsAjax/*', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'addRotationsAjax'));
 Router::connect('/BusRoutes/CustomRoutes/addRotationAjax/*', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'addRotationAjax'));
 Router::connect('/BusRoutes/CustomRoutes/generateReport/*', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'generateReport'));
+Router::connect('/BusRoutes/CustomRoutes/rotationByDate/*', array('plugin' => 'BusRoutes' , 'controller' => 'CustomRoutes', 'action' => 'rotationByDate'));
+

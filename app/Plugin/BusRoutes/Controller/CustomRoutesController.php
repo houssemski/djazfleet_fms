@@ -47,7 +47,8 @@ class CustomRoutesController extends BusRoutesAppController {
         'BusRoutes.SaveBusStopsGeoFences',
         'BusRoutes.SaveBusRoutesRotations',
         'BusRoutes.ViewLiveBusRotations',
-        'Paginator'
+        'Paginator',
+        'RequestHandler'
     );
 
 
@@ -367,6 +368,99 @@ class CustomRoutesController extends BusRoutesAppController {
         $data = utf8_encode($data);
         $data = json_decode($data, JSON_UNESCAPED_UNICODE);
         return $data;
+    }
+
+    public function rotationByDate($id){
+        $this->setTimeActif();
+        $dateFrom = null;
+        $dateTo = null;
+        if (!$this->BusRoute->exists($id)) {
+            throw new NotFoundException(__('Invalid bus route.'));
+        }
+        if (!empty($this->request->data['DateFilters']['date_from'])){
+            $dateFrom = DateTime::createFromFormat('d/m/Y', $this->request->data['DateFilters']['date_from']);
+            $dateFrom = $dateFrom->format('Y-m-d');
+        }
+        if (!empty($this->request->data['DateFilters']['date_to'])){
+            $dateTo = DateTime::createFromFormat('d/m/Y', $this->request->data['DateFilters']['date_to']);
+            $dateTo = $dateTo->format('Y-m-d');
+        }
+        $options = array(
+            'conditions' => array('BusRoute.' . $this->BusRoute->primaryKey => $id),
+            'fields' => array(
+                'BusRoute.id',
+                'BusRoute.route_title',
+                'BusRoute.route_type',
+                'Car.immatr_def',
+                'Car.tracker_id',
+                'CarModel.name',
+                'Customers.first_name',
+                'Customers.last_name'
+            ),
+            'joins' => array(
+                array(
+                    'table' => 'car',
+                    'type' => 'left',
+                    'alias' => 'Car',
+                    'conditions' => array('BusRoute.car_id = Car.id')
+                ),
+                array(
+                    'table' => 'carmodels',
+                    'type' => 'left',
+                    'alias' => 'CarModel',
+                    'conditions' => array('Car.carmodel_id = CarModel.id')
+                ),
+                array(
+                    'table' => 'customers',
+                    'type' => 'left',
+                    'alias' => 'Customers',
+                    'conditions' => array('BusRoute.customer_id = Customers.id')
+                )
+            )
+        );
+        $busRoute = $this->BusRoute->find('first', $options);
+        $busStops = $this->BusStop->getRouteBusStops($id, $busRoute['BusRoute']['route_type']);
+        $conditionsArray = array();
+        $conditionsArray['GeofencesAlert.tracker_id'] = $busRoute['Car']['tracker_id'];
+        if (!empty($dateFrom)){
+            $conditionsArray['DATE(GeofencesAlert.created_at) >'] = $dateFrom;
+        }
+        if (!empty($dateTo)){
+            $conditionsArray['DATE(GeofencesAlert.created_at) <'] = $dateTo;
+        }
+
+        $geoFencesEvents = $this->GeofencesAlert->find('all',array(
+            'conditions' => $conditionsArray,
+            'fields' => array(
+                'GeofencesAlert.id',
+                'GeofencesAlert.geo_fence_event_id',
+                'GeofencesAlert.tracker_id',
+                'GeofencesAlert.geo_fence_id',
+                'GeofencesAlert.type_name',
+                'GeofencesAlert.created_at',
+                'GeofencesAlert.lat',
+                'GeofencesAlert.lng',
+                'GeofencesAlert.alert_id',
+                'GeofencesAlert.seen',
+                'BusRouteStop.name',
+            ),
+            'joins' => array(
+                array(
+                    'table' => 'bus_route_stops',
+                    'type' => 'left',
+                    'alias' => 'BusRouteStop',
+                    'conditions' => array('GeofencesAlert.geo_fence_id = BusRouteStop.geo_fence_id')
+                )
+            ),
+            'order' => array(
+                'GeofencesAlert.created_at' => 'ASC',
+                'GeofencesAlert.type_name' => 'ASC',
+                'BusRouteStop.name' => 'ASC',
+            )
+        ));
+        $busRouteRotations = $this->ViewLiveBusRotations->getBusRouteRotations($id, $busRoute['BusRoute']['route_type']);
+        $checkPointsArray = $this->ViewLiveBusRotations->generateReportCheckPointsArray($busStops, $busRouteRotations, $geoFencesEvents);
+        $this->set(compact('busStops','busRoute','checkPointsArray'));
     }
 
 
